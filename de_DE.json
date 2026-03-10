@@ -1,0 +1,2977 @@
+{
+  "HOME": {
+    "WELCOME": "Willkommen"
+  },
+  "ASSISTANTS": {
+    "TITLE": "Assistenten",
+    "DETAIL_TITLE": "Details",
+    "DETAIL_INSIGHTS_TITLE": "Erkenntnisse",
+    "DETAIL_INSIGHTS_TOOLTIP": "Erkenntnisse sind Verhaltensrichtlinien, die dabei helfen anzupassen, wie Ihr Assistent interagieren und reagieren. Verwenden Sie Erkenntnisse, um spezialisierte Anweisungen zu geben, Kommunikationsstile anzupassen oder zu definieren, wie Assistenten bestimmte Schnittstellen und Szenarien handhaben sollen.",
+    "ADD": "Assistent hinzufügen",
+    "ADD_INSIGHTS": "Neuen Einblick hinzufügen",
+    "MANAGE": "Assistentenverwaltung",
+    "EDIT": "Assistent {{assistantName}} bearbeiten",
+    "ADD_ASSISTANT_MODAL": {
+      "NAME": "Name",
+      "NAME_PLACEHOLDER": "Bitte eingeben",
+      "TYPE": "Typ",
+      "TYPE_PLACEHOLDER": "Typ auswählen",
+      "DESCRIPTION": "Beschreibung",
+      "TESTING_CONNECTION": "Verbindung wird getestet...",
+      "DESCRIPTION_TOOLTIP": "Benutzen Sie {{plattformName}} um diese Beschreibung zu erstellen.",
+      "DESCRIPTION_HELPER_TEXT": "Beschreiben Sie Zweck, Fähigkeiten und Spezialisierungen dieses <strong>Assistenten</strong>, damit Ihre <strong>Agenten</strong> wissen, wann sie Aufgaben an ihn delegieren.",
+      "NOT_CHECKED_WITH_TEST_TOOLTIP": "Diese Werte werden beim Verbindungstest nicht validiert. Bitte überprüfen Sie Ihre Eingaben sorgfältig.",
+      "CONNECTION_TYPE": "Verbindungstyp",
+      "AUTH_TOKEN": "Authentifizierungs-Token",
+      "EXTRA_DATA": "Zusätzliche Daten"
+    },
+    "ADD_INSIGHTS_MODAL": {
+      "EDIT": "Einblick bearbeiten",
+      "ADD": "Einblick hinzufügen"
+    },
+    "INSIGHTS_VIEW": {
+      "NO_INSIGHTS_FOUND_HEADER": "Keine Erkenntnisse gefunden",
+      "NO_INSIGHTS_FOUND_SUBTEXT": "Klicke auf 'Erkenntnis hinzufügen', um deine erste Assistenten-Erkenntnis zu erstellen."
+    },
+    "ASSISTANT_VIEW": {
+      "NO_ASSISTANT_FOUND_HEADER": "Keine Assistenten gefunden",
+      "NO_ASSISTANT_FOUND_SUBTEXT": "Klicken Sie auf 'Assistent hinzufügen', um Ihren ersten Assistenten zu erstellen",
+      "ASSISTANT_COUNT": {
+        "ONE": "1 Assistent",
+        "OTHER": "{{count}} Assistenten"
+      }
+    },
+    "DETAIL_MAIN_TITLE": "Assistenten Detailansicht",
+    "MCP_ASSISTANT_TOOLS": {
+      "NO_PENDING_CHANGES": "Keine ausstehenden Änderungen",
+      "CHANGES_PENDING": "{{ changed.size }} Änderung(en) ausstehend",
+      "RESET": "Zurücksetzen",
+      "SAVE_ONLY_CHANGED": "Nur geänderte speichern",
+      "SAVING": "Speichern…",
+      "ENABLED": "Aktiviert",
+      "MESSAGES": {
+        "TOOLS_SAVED_SUMMARY": "Änderungen gespeichert",
+        "TOOLS_SAVED_DETAIL": "{{ tools.length }} Tool(s) erfolgreich aktualisiert",
+        "SAVE_FAILED_SUMMARY": "Speichern fehlgeschlagen",
+        "SAVE_FAILED_DETAIL": "Bitte versuchen Sie es erneut"
+      }
+    }
+  },
+  "HIDE_CHAT": "Chat schließen",
+  "GPT_MODAL": {
+    "RESTART": "Haben Sie versucht die Machine aus- und wieder anzuschalten?",
+    "ALL_INFO": "Alle Informationen",
+    "ACCESSIBLE": "Von überall erreichbar",
+    "NATURAL_LANGUAGE": "Über natürliche Spracheingaben",
+    "MAINTENANCE": "Wartungen & Ersatzteile",
+    "PRODUCTION": "Produktions & Maschinendaten",
+    "COPIED": "Nachricht in die Zwischenablage kopiert",
+    "ASK_SHOPFLOOR_GPT": "Frag' {{plattformName}}",
+    "PAGES": "Seiten",
+    "PAGE": "Seite",
+    "MSG_GENERAL_ERROR": "Bei der Verarbeitung durch ShofloorGPT ist ein allgemeiner Fehler aufgetreten.",
+    "VOICE_ERROR": "Ihr Browser unterstützt die Spracheingabe aktuell noch nicht",
+    "VOICE_ERROR_DETAIL": "Bitte verwenden Sie einen anderen Browser",
+    "MESSAGE_REPORTED": "Die Nachricht wurde erfolgreich gemeldet",
+    "MESSAGE_REPORTED_DETAIL": "Vielen Dank für Ihr Feedback!",
+    "CREATE_ASSET_INFO": "Sehr gern. Bitte überprüfen Sie die von mir bereitgestellten Details und bestätigen Sie die Erstellung des Assets.",
+    "ASSET_CREATED_INFO": "Ich habe das Asset '{{asset_name}}' für Sie erstellt. Hier können Sie es sich ansehen:",
+    "SHOW_ASSET": "Asset anzeigen",
+    "PROCESSING_DOCUMENT": "Vielen Dank. {{plattformName}} beginnt nun mit der Verarbeitung des Dokuments.",
+    "PROCESSING_DOCUMENT_DETAIL": "Die Verarbeitung kann einige Minuten in Anspruch nehmen.",
+    "CHAT_GENERAL_ERROR": "Ein Fehler ist aufgetreten. Es gab ein Problem bei der Verarbeitung Ihrer Anfrage. Wenn dieses Problem weiterhin besteht, kontaktieren Sie uns bitte.",
+    "CHAT_TIMEOUT_ERROR": "Die Anfrage konnte aufgrund eines Timeout-Fehlers nicht abgeschlossen werden. Bitte versuchen Sie es später erneut. Sollte das Problem weiterhin bestehen, kontaktieren Sie uns bitte.",
+    "CHAT_GRAPH_RECURSION_LIMIT_ERROR": "Ihre Anfrage an {{plattformName}} hat länger gedauert als erwartet und hat die maximale Schrittgrenze erreicht. Bitte vereinfachen Sie Ihre Anfrage oder versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich bitte an unser Support-Team.",
+    "CHAT_SERVICE_UNAVAILABLE_ERROR": "{{plattformName}} ist vorübergehend nicht verfügbar. Bitte versuchen Sie es später erneut. Sollte das Problem weiterhin bestehen, wenden Sie sich bitte an den Support.",
+    "RETRY": "Erneut versuchen",
+    "THOUGHTS": "Gedanken",
+    "DELEGATING_TO": "Delegiert an",
+    "WORKING": "Arbeitet",
+    "SHOW_HISTORY": "Verlauf anzeigen",
+    "CHAT_HISTORY": {
+      "TODAY": "Heute",
+      "YESTERDAY": "Gestern",
+      "LAST_SEVEN_DAYS": "Letzte 7 Tage",
+      "OLDER": "Älter"
+    },
+    "NEW_CHAT": "Neuer Chat",
+    "TITLE_CHAT": "Chat",
+    "FULL_SCREEN": "Chat in Vollbild öffnen",
+    "CREATE_ROUTINE_TOOLTIP": "Falls Sie planen, diese Tätigkeit regelmäßig auszuführen, besteht die Möglichkeit, eine Routine zu ertsellen",
+    "NO_AGENTS": "Noch kein Agent konfiguriert",
+    "CHAT_CONTENT_FILTER_ERROR": "Ein Fehler ist aufgetreten. Ihre Anfrage konnte nicht bearbeitet werden, da sie <strong>gegen die Inhaltsrichtlinien des LLM-Providers verstößt</strong>. Bitte versuchen Sie, Ihre Anfrage neu zu formulieren. Wenn dieses Problem weiterhin besteht, kontaktieren Sie uns bitte.",
+    "CONTEXT": {
+      "MACHINES": "Maschinen",
+      "FILES": "Dateien",
+      "TAGS": "Tags",
+      "NO_CONTEXT": "Kein Kontext verfügbar",
+      "TYPE_TO_FILTER": "Tippe um den Kontext zu filtern",
+      "SHOW_MORE": "Mehr anzeigen",
+      "NO_CONTEXT_SEARCH_RESULT": "Keine Ergebnisse für '{{searchTerm}}'",
+      "YOU_DO_NOT_HAVE_ACCESS_TO_USE_AGENTS": "Sie haben keine Berechtigung, Agenten zu verwenden",
+      "YOU_DO_NOT_HAVE_ACCESS_TO_USE_CONTEXT": "Sie haben keine Berechtigung, den Kontext zu verwenden"
+    },
+    "SELECT_AGENT": "Agent auswählen",
+    "TYPE_TO_FILTER_AGENTS": "Tippe um Agenten zu filtern",
+    "CHAT": {
+      "INVALID_FILE_TYPE": "Ungültiger Dateityp",
+      "ONLY_IMAGES_ALLOWED": "Nur Bilddateien sind erlaubt",
+      "TOO_MANY_IMAGES": "Zu viele Bilder",
+      "MAX_IMAGES_EXCEEDED": "Maximal {{max}} Bilder erlaubt",
+      "FILE_TOO_LARGE": "Datei zu groß",
+      "MAX_FILE_SIZE": "Maximale Dateigröße ist {{max}}",
+      "UPLOAD_FAILED": "Upload fehlgeschlagen",
+      "UPLOAD_ERROR_DETAIL": "Bild konnte nicht hochgeladen werden. Bitte versuchen Sie es erneut.",
+      "DRAG_DROP_OVERLAY_TITLE": "Bilder hier ablegen",
+      "DRAG_DROP_OVERLAY_SUBTITLE": "Loslassen um Bilder in den Chat hochzuladen"
+    },
+    "WHICH_MACHINE": "Welche Machine ist gemeint?",
+    "CLIPPY": "Kann ich dir behilflich sein?",
+    "MACHINE_PROBLEMS": "Meine Maschine macht Probleme.",
+    "SERVICE_SUPPORT": "Service und Support",
+    "BOOK_CALL": "Wo bestelle ich Ersatzteile für die Verpackungsmaschine?",
+    "UPCOMING_MAINTENANCE": "Welche Wartungen sollte ich in der nächsten Woche einplanen?",
+    "AVERAGE_OEE": "Berechne die OEE",
+    "SUPPORT_REQUEST": "Wo erstelle ich eine Service-Anfrage für die Verpackungsmaschine?",
+    "SPARE_REORDER": "Wie führe ich eine Kalibrierung des Temperaturreglers durch?",
+    "MICRO_STOPS": "Fasse die Frühschicht zusammen",
+    "MESSAGE_LINK": "Asset öffnen",
+    "DELETED_MESSAGE": "Chat-Historie wurde erfolgreich gelöscht. Stellen Sie eine neue Frage!",
+    "PREPROMPT": "Pre-Prompt",
+    "MSG_SESSION_EXPIRED": "Ihr Sitzung ist leider abgelaufen, bitte starten Sie den Chat neu.",
+    "MSG_GENERAL_ERROR_DETAIL": "Bitte versuchen Sie es erneut indem Sie die Seite neuladen.",
+    "MSG_NO_PREPROMPT": "Die Sitzung mit {{assistantName}} konnte aufgrund hocher Nachfrage am Server nicht gestartet werden. Bitte versuchen Sie es später erneut!",
+    "SETTINGS": {
+      "OPENAI_DEPLOYMENT": "Standard GPT Version",
+      "OPENAI_DEPLOYMENT_INFO": "Wählen Sie die OpenAI-Bereitstellung, die Ihren Anforderungen am besten entspricht. GPT-4o bietet hohe Qualität und Präzision und eignet sich besonders für komplexe Aufgaben. Es benötigt jedoch etwas mehr Ressourcen. Wenn Sie jedoch ähnliche Ergebnisse bei schnellerer Leistung und geringerer Ressourcenbelastung bevorzugen, ist GPT-4o Mini die ideale Wahl für eine effizientere Nutzung.",
+      "LOG_MESSAGES": "Nachrichten protokollieren",
+      "LOG_MESSAGES_INFO": "Aktivieren Sie die Protokollierung von Nachrichten, um vergangene Gespräche zu sichern, was die Kontinuität und die Leistung von {{assistantName}} verbessert. Ihr Chatverlauf wird sicher gespeichert, um schnellen Zugriff und kontinuierliches Lernen zu ermöglichen.",
+      "LLM_MODEL": "Standard LLM Modell",
+      "DEFAULT_CHAT_QUESTIONS": "Standard Chat Fragen",
+      "CATEGORY": "Kategorie",
+      "PROMPT": "Eingabeaufforderung",
+      "ADD_PROMPT": "Prompt hinzufügen",
+      "ADD_CATEGORY": "Kategorie Hinzufügen",
+      "NEW_DEFAULT_CHAT_QUESTIONS_CATEGORY": "Neue Kategorie von Standard-Chat-Fragen"
+    },
+    "YOU": "Du",
+    "DATE_FORMAT": "HH:mm",
+    "DISCLAIMER": "{{settingsAssistantName}} kann Fehler machen. Überprüfe Antworten mit wichtigen Informationen."
+  },
+  "SETTINGS": {
+    "SETTINGS": "Einstellungen",
+    "PRIMARY_COLOR": "Primärfarbe",
+    "BACKGROUND_COLOR": "Hintergrundfarbe",
+    "LIGHT_WELCOME_TEXT": "Begrüßungstext",
+    "WELCOME_TEXT_COLOR": "Begrüßungstextfarbe",
+    "BACKGROUND_IMAGE_VIDEO": "Hintergrundbild oder -video",
+    "NOT_SUPPORT_HTML5_VIDEO": "Ihr Browser unterstützt kein HTML5-Video",
+    "GENERAL_SETTING": "Allgemeine Einstellungen",
+    "TILE_CONFIGURATION": "Kachelkonfiguration",
+    "TILE_NAME": "Kachelname",
+    "DESCRIPTION": "Beschreibung",
+    "APP_URL": "App-URL",
+    "ICON_URL": "Icon-URL",
+    "ICON": "Symbol",
+    "TILE_COLOR": "Kachelfarbe",
+    "TILE_TEXT_COLOR": "Kacheltextfarbe",
+    "EMPTY_NAME": "Leerer Name",
+    "SHOW_IN_OVERVIEW_PAGE": "Auf Übersichtsseite anzeigen",
+    "HIDE_IN_OVERVIEW_PAGE": "In Übersichtsseite ausblenden",
+    "ADD_TILE": "Kachel hinzufügen",
+    "INTEGRATE_VIEW": "Integrierte Ansicht",
+    "LOGO_IMAGE": "Logo",
+    "UPLOAD_FILE": "Datei hochladen",
+    "DELETE_FILE": "Datei löschen",
+    "INVALID_TILE_NAME": "Kachelname fehlt",
+    "INVALID_TILE_URL": "Kachel Url fehlt",
+    "INVALID_TILE_COLORS": "Kachelfarben sind ungültig",
+    "OEE_MONITORING_DETAILS_THRESHOLD": "OEE-Überwachungsdetails Schwellenwert",
+    "OEE_UTILIZATION_GOAL": "OEE-Auslastungsziel",
+    "OEE_KPI_GOAL": "OEE-KPI-Ziel",
+    "OEE_AVAILABILITY_GOAL": "OEE-Verfügbarkeitsziel",
+    "OEE_YIELD_GOAL": "OEE-Ertragsziel",
+    "THROUGHPUT_THRESHOLD": "Durchsatz-Schwellenwert",
+    "INVALID_GENERAL_FIELD": "Bitte geben Sie einen gültigen Wert ein"
+  },
+  "OPTIONS": {
+    "SETTINGS": {
+      "HUB_SETTINGS": "Hub Einstellungen",
+      "SUPPORT_SETTINGS": "Support Einstellungen",
+      "USER_MANAGEMENT": "Benutzer Management",
+      "ASSET_MANAGEMENT": "Asset Management",
+      "TENANT_MANAGEMENT": "Tenant Management"
+    },
+    "PROFIL": {
+      "PROFIL": "Profil",
+      "LOGOUT": "Ausloggen",
+      "LANGUAGES": {
+        "DE": "Deutsch",
+        "EN": "English",
+        "IT": "Italiano"
+      },
+      "ABOUT": "Über",
+      "VERSION": "Version",
+      "NEW_UPDATES": "Neue Updates",
+      "PERSONAL": "Persönliche Details"
+    },
+    "VIEW": "Ansehen",
+    "EDIT": "Bearbeiten",
+    "DELETE": "Löschen",
+    "SWITCH_TO": "Zu Tenant wechseln",
+    "RESET_USERS": "Alle Benutzer zurücksetzen",
+    "RESET_HUB": "Hub-Konfigurationen zurücksetzen",
+    "TEST": "Test",
+    "HIDE": "Ausblenden",
+    "SHOW": "Anzeigen",
+    "INSTRUCTION": "Anleitung",
+    "CANCEL": "Abbrechen",
+    "SAVE_CHANGES": "Speichern"
+  },
+  "COMMON": {
+    "CANCEL": "Abbrechen",
+    "BACK": "Zurück",
+    "SAVE": "Speichern",
+    "UPDATE": "Aktualisieren",
+    "EDIT": "Bearbeiten",
+    "DELETE": "Löschen",
+    "ADD_CONNECTION": "Verbindung hinzufügen",
+    "CREATE": "Erstellen",
+    "GENERATE_PROMPTS": "Generieren mit {{ plattformName }}",
+    "SELECT_AGENT": "Agent auswählen",
+    "VIEW": "Ansehen",
+    "SAVE_CHANGES": "Änderungen speichern",
+    "SEARCH": "Suchen",
+    "PLEASE_CHOOSE": "Bitte auswählen",
+    "ENTER_TEXT": "Text eingeben",
+    "CLOSE": "Schließen",
+    "CONFIRM": "Bestätigen",
+    "ACCEPT": "Akzeptieren",
+    "DECLINE": "Ablehnen",
+    "ADD": "Hinzufügen",
+    "DOWNLOAD": "Herunterladen",
+    "MOVE": "Verschieben",
+    "ABORT": "Abbrechen",
+    "NO_RESULTS_FOUND_FOR_SEARCH_TERM": "Kein Ergebniss für '{{searchTerm}}' gefunden",
+    "ALL": "Alle",
+    "IMPORT": "Importieren",
+    "SHOW_MORE": "Mehr anzeigen",
+    "SHOW_LESS": "Weniger anzeigen",
+    "URL": "URL",
+    "MANAGE": "Verwalten"
+  },
+  "MESSAGES": {
+    "CHANGES_SAVED": "Änderungen wurden gespeichert",
+    "CHANGES_ARE_NOT_SAVED_DUE_TO_SOME_ERROR": "Änderungen konnten aufgrund eines Fehlers nicht gespeichert werden",
+    "UPLOAD_FAILED": "Ihre Änderungen konnten aufgrund eines Upload-Fehlers nicht gespeichert werden",
+    "ERROR": "Fehler",
+    "WARNING": "Warnung",
+    "SUCCESS": "Erfolg",
+    "AGENT_CREATED": "Agent erstellt",
+    "ERROR_CREATING_AGENT": "Fehler beim Erstellen des Agenten",
+    "ASSET_CREATED": "Asset wurde erfolgreich angelegt",
+    "ASSET_TYPE_CREATED": "Asset Typ wurde erfolgreich angelegt",
+    "ASSET_TYPE_UPDATED": "Asset type wurde erfolgreich geupdated",
+    "CONVERSATION_DELETED": "Das Gespräch wurde erfolgreich gelöscht.",
+    "CONVERSATION_DELETE_FAILED": "Das Gespräch konnte nicht gelöscht werden.",
+    "TITLE_REQUIRED_DETAIL": "Bitte geben Sie einen gültigen Titel für das Gespräch ein.",
+    "SAVE_FAILED": "Der Gesprächstitel konnte nicht aktualisiert werden.",
+    "BOARD": {
+      "CHANGES_SAVED": "Änderungen erfolgreich gespeichert",
+      "UPDATE_FAILED": "Board konnte nicht gespeichert werden",
+      "DELETED": "Board erfolgreich gelöscht"
+    },
+    "TILE_IMAGE": {
+      "INVALID_FORMAT": "Sie können nur Bilder hochladen"
+    },
+    "ERROR_MESSAGE": "Die Aktion konnte nicht ausgeführt werden, es ist ein Fehler aufgetreten",
+    "FILE_UPLOAD_ERROR": "Es ist ein Fehler beim hochladen der Datei aufgetreten",
+    "ERROR_MINIMUM_CATEGORIES_REACHED": "Die Mindestanzahl der Kategorien ist bereits erreicht",
+    "ERROR_UNEXPECTED": "Ein unerwarteter Fehler ist aufgetreten",
+    "GENERATED": "Generiert",
+    "REQUEST_SENT": "Anfrage gesendet",
+    "SUCCESS_DELETE_TENANT": "Der Tenant wurde erfolgreich gelöscht",
+    "SUCCESS_RESET_HUB_SETTING": "Tenant Hub-Einstellungen erfolgreich zurückgesetzt",
+    "SUCCESS_RESET_USER_SETTING": "Tenant Benutzer erfolgreich zurückgesetzt",
+    "KEY_EXISTS": "Es existiert bereits ein Key mit diesem Wert",
+    "MNT_COMPLETE_DISABLED": "Kann nicht abgeschlossen werden, da der Status geplant ist",
+    "MAP_CREATED": "Karte wurde erfolgreich erstellt"
+  },
+  "SETTINGS_ITEMS": {
+    "TENANTS": "Tenants",
+    "USERS": "Benutzer",
+    "ASSETS": "Assets",
+    "ASSET_QR_CODES": "Asset QR-Codes",
+    "APPS": "Apps",
+    "GPT_SETTINGS": "{{plattformName}} Einstellungen",
+    "ASSISTANTS": "Assistenten",
+    "AGENTS": "Agenten",
+    "DOCUMENTS": "Dokumente",
+    "KNOWLEDGE_COLLECTIONS": "Wissenssammlungen"
+  },
+  "GENERAL": {
+    "TRUE": "Wahr",
+    "FALSE": "Falsch",
+    "ROOT_NODE": "Root"
+  },
+  "MODALS": {
+    "CONFIRM_LOSE_CHANGES": {
+      "TITLE": "Bitte beachten",
+      "BODY": "Wenn Sie bestätigen, gehen nicht gespeicherte Änderungen verloren.",
+      "CONFIRM": "Bestätigen",
+      "ABORT": "Abbrechen"
+    },
+    "DELETE_TILE_CONFIRM": {
+      "TITLE": "Kachel löschen?",
+      "BODY": "Durch das Löschen einer Kachel wird diese dauerhaft aus dem Raster entfernt",
+      "CONFIRM": "Löschen",
+      "ABORT": "Abbrechen"
+    },
+    "DELETE_CONVERSATION_CONFIRM": {
+      "TITLE": "Unterhaltung löschen?",
+      "BODY": "Das Löschen dieser Unterhaltung entfernt sie dauerhaft aus Ihrem Chat-Verlauf",
+      "CONFIRM": "Löschen",
+      "ABORT": "Abbrechen"
+    },
+    "DOCUMENT": {
+      "TITLE": "Neues Dokument hinzufügen",
+      "TITLE_EDIT": "Dokument bearbeiten",
+      "CONFIRM": "Senden",
+      "CONFIRM_EDIT": "Speichern",
+      "ABORT": "Abbrechen"
+    },
+    "TRANSLATION_PROMPT": {
+      "EDIT_TRANSLATION": "Übersetzungen bearbeiten",
+      "CURRENT_LANGUAGE": "Aktuelle Sprache",
+      "APPLY": "Anwenden",
+      "CANCEL": "Abbrechen"
+    },
+    "DELETE_DOCUMENT_ERROR_MESSAGE": {
+      "TITLE": "Ungültige Aktion",
+      "BODY": "Diese Aktion kann nicht abgeschlossen werden"
+    },
+    "DELETE_TENANT_CONFIRM": {
+      "TITLE": "Tenant löschen?",
+      "BODY": "Tenant wirklich vollständig löschen?",
+      "CONFIRM": "Löschen",
+      "ABORT": "Abbrechen"
+    },
+    "DELETE_TENANT_ERROR_MESSAGE": {
+      "TITLE": "Ungültige Aktion",
+      "BODY": "Diese Aktion kann nicht durchgeführt werden",
+      "DISMISS": "Schließen"
+    },
+    "DELETE_USER_CONFIRM": {
+      "TITLE": "Benutzer löschen?",
+      "BODY": "Sind Sie sicher, dass Sie den Benutzer dauerhaft löschen möchten??",
+      "INVALID": "Der Benutzer kann nicht gelöscht werden.",
+      "SUCCESS": "Benutzer erfolgreich gelöscht",
+      "CONFIRM": "Löschen",
+      "ABORT": "Abbrechen"
+    },
+    "REMOVE_USER_CONFIRM": {
+      "TITLE": "Benutzer entfernen",
+      "BODY": "Benutzer permanent entfernen?",
+      "INVALID": "Der Benutzer kann nicht entfernt werden.",
+      "SUCCESS": "Benutzer erfolgreich entfernt",
+      "CONFIRM": "Entfernen"
+    },
+    "DELETE_ROLE_CONFIRM": {
+      "TITLE": "Rolle löschen",
+      "BODY": "Rolle dauerhaft löschen?",
+      "CONFIRM": "Löschen",
+      "ABORT": "Abbrechen"
+    },
+    "REPORT_MESSAGE": {
+      "TITLE": "Nachricht melden",
+      "SUBTITLE_GOOD": "Vielen Dank für Ihr positives Feedback. Falls Sie möchten, teilen Sie uns gerne mit, was Ihnen an der Nachricht besonders zugesagt hat, um unsere Qualität weiter zu verbessern.",
+      "SUBTITLE_BAD": "Vielen Dank für Ihr Feedback! Bitte beschreiben Sie kurz, was an der Nachricht verbessert werden könnte, damit wir unseren Service für Sie optimieren können.",
+      "PLACEHOLDER": "Ihr Feedback",
+      "CONFIRM": "Absenden",
+      "CANCEL": "Abbrechen"
+    },
+    "DELETE_ROUTINE_CONFIRM": {
+      "TITLE": "Routine löschen",
+      "BODY": "Möchten Sie diese Routine permanent löschen?",
+      "CONFIRM": "Löschen",
+      "ABORT": "Abbrechen"
+    },
+    "DELETE_ROUTINE_ERROR_MESSAGE": {
+      "TITLE": "Fehler",
+      "BODY": "Es is ein Fehler während des Löschens der Routine aufgetreten. Bitte versuchen Sie es erneut",
+      "DISMISS": "Schließen"
+    },
+    "DELETE_DEFAULT_QUESTION_CONFIRM": {
+      "TITLE": "Standard-Chatfragen-Kategorie löschen?",
+      "BODY": "Durch das Löschen der Standard-Chatfragen-Kategorie wird diese dauerhaft aus der Liste entfernt",
+      "CONFIRM": "Löschen"
+    },
+    "DELETE_SPECIFICATION_CONFIRM": {
+      "TITLE": "Spezifikation löschen?",
+      "BODY": "Das Löschen eines Spezifikation wird es dauerhaft aus der Liste entfernen",
+      "CONFIRM": "Löschen"
+    },
+    "GPT_CHAT_FEEDBACK": {
+      "HELP_US": "Helfen Sie uns, diese Antwort zu verbessern",
+      "LETS_IMPROVE_TOGATHER": "Lassen Sie uns das gemeinsam verbessern! Sagen Sie mir, was unklar oder falsch war.",
+      "FEEDBACK_DIRECTLY": "Ich möchte direkt Feedback abgeben",
+      "BETTER_ADDRESS_QUESTION": "Wurde Ihre Frage besser beantwortet?",
+      "LETS_USE_NEW_RESPONSE": "Nutzen wir neue Antworten, um unsere Basis zu verbessern.",
+      "CREATE_LEARNING": "Daraus lernen",
+      "NEW_ANSWER_INACCURATE": "Es tut uns leid, dass die neue Antwort ungenau war. Möchten Sie es noch einmal versuchen?",
+      "SEND_FEEDBACK": "Feedback senden",
+      "REFINE_FURTHER": "Weiter verfeinern",
+      "GRATITUDE": "Vielen Dank für Ihr Feedback!",
+      "IMPROVE_FUTURE_RESPONSE": "Wir werden es verwenden, um zukünftige Antworten zu verbessern.",
+      "RESPONSE_WASNT_HELPFUL": "Ich sehe, dass meine Antwort nicht hilfreich war. Könnten Sie uns mitteilen, was fehlte oder falsch war?",
+      "EDITED_BASED_ON_FEEDBACK": "Auf der Grundlage Ihres Feedbacks bearbeitet",
+      "ERROR_OCCURRED": "Es ist ein Fehler aufgetreten, bitte versuchen Sie es erneut.",
+      "INSIGHT_I_GAVE_TO_THE": "Wir könnten das Problem lösen, indem wir dem '{{assistantName}}' die folgende Erkenntnis geben:",
+      "KNOWLEDGE_COLLECTION_I_GAVE_TO_THE": "Ich schlage folgenden neuen Eintrag für die Wissenssammlung '{{collectionName}}' vor:",
+      "LEARNING_ACCEPTED_TITLE": "Vielen Dank!",
+      "LEARNING_ACCEPTED_TEXT": "Ihr Verbesserungsvorschlag wurde erfolgreich gespeichert und wird zur Verbesserung zukünftiger Antworten verwendet.",
+      "ERROR_SAVING_LEARNING": "Beim Speichern des Learnings ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+    },
+    "AGENT_TEMPLATE": {
+      "SELECT_AGENT_TEMPLATE": "Agentenvorlage auswählen",
+      "CHOOSE_REFINED_AGENT": "Wählen Sie aus vordefinierten Agentenvorlagen oder erstellen Sie Ihren eigenen Agenten.",
+      "CREATE_OWN_AGENT": "Neu von Grund auf erstellen",
+      "USE_AGENT_TEMPLATE": "Aus Vorlage erstellen",
+      "NO_TEMPLATES_FOUND": "Keine Agentenvorlagen verfügbar",
+      "SERVICE_REPORT_AGENT_NAME": "Servicebericht Agent",
+      "SERVICE_REPORT_AGENT_DESCRIPTION": "Erstellt Service-Reports für den Service-Techniker",
+      "PCF_AGENT_NAME": "PCF Agent",
+      "PCF_AGENT_DESCRIPTION": "Ich bin ein Agent der Unternehmen dabei hilft, den Product Carbon Footprint (PCF) ihrer Produkte zu berechnen.",
+      "TRAININGS_ASSISTENT_NAME": "Trainings-Assistent",
+      "TRAININGS_ASSISTENT_DESCRIPTION": "Erstellt Trainingsprogramme und Tests aus den Maschinendokumenten",
+      "PRODUCTION_ANALYST_NAME": "Produktionsanalyst",
+      "PRODUCTION_ANALYST_DESCRIPTION": "Hat Zugriff auf alle Produktionsdaten und kann Analysen erstellen",
+      "MACHINE_CONFIGURATOR_NAME": "Maschinenkonfigurator",
+      "MACHINE_CONFIGURATOR_DESCRIPTION": "Nimmt Anforderungen auf und konfiguriert die passende Maschine",
+      "SALES_ENGINEER_NAME": "Vertriebsingenieur",
+      "SALES_ENGINEER_DESCRIPTION": "Prüft Lastenhefte und bereite Angebote vor",
+      "SERVICE_TICKET_AGENT_NAME": "Service Ticket Agent",
+      "SERVICE_TICKET_AGENT_DESCRIPTION": "Unterstützt bei der Bearbeitung von Service Tickets",
+      "SUPERVISOR_AGENT_NAME": "Supervisor-Agent",
+      "SUPERVISOR_AGENT_DESCRIPTION": "Koordiniert mehrere spezialisierte Agenten zur Bearbeitung komplexer mehrstufiger Anfragen.",
+      "TECHNICAL_SUPPORT_AGENT_NAME": "Technischer Support Agent",
+      "TECHNICAL_SUPPORT_AGENT_DESCRIPTION": "Bearbeitet technische Support-Anfragen und Fehlerbehebung.",
+      "ORDER_ASSISTANT_NAME": "Bestellassistent",
+      "ORDER_ASSISTANT_DESCRIPTION": "Unterstützt Kunden bei der Bestellabwicklung, -verfolgung und -anfragen."
+    },
+    "SUB_AGENT_INHERIT": {
+      "TITLE": "Übergeordnete Vererbung",
+      "DESCRIPTION": "Sie können Teile der übergeordneten Agentenkonfiguration erben",
+      "INHERIT": "Erben"
+    },
+    "DELETE_AGENT_CONFIRM": {
+      "AGENT_TITLE": "Agent löschen",
+      "SUB_AGENT_TITLE": "Unteragent löschen",
+      "BODY_WITH_SUB_AGENTS": "Das Löschen des Agenten '{{agentName}}' entfernt ihn und alle seine Unteragenten dauerhaft aus Ihrem Agentenpool.",
+      "BODY_WITHOUT_SUB_AGENTS": "Das Löschen des Agenten '{{agentName}}' entfernt ihn dauerhaft aus Ihrem Agentenpool."
+    },
+    "DELETE_DEPARTMENT_CONFIRM": {
+      "TITLE": "Abteilung löschen?",
+      "BODY_WITH_CHILDREN": "Diese Abteilung enthält untergeordnete Elemente. Sind Sie sicher, dass Sie sie löschen möchten?",
+      "BODY_WITHOUT_CHILDREN": "Sind Sie sicher, dass Sie diese Abteilung löschen möchten?"
+    },
+    "CHUNKS_VIEWER": {
+      "TITLE": "Chunks-Viewer - {{fileName}}",
+      "CHUNK_DETAILS": "Chunk-Details",
+      "CHUNK_CONTENT_MARKDOWN": "Chunk-Inhalt (Markdown)",
+      "DOCUMENT_CHUNKS": "Dokumenten-Chunks",
+      "TOTAL": "Insgesamt: {{total}} Chunks",
+      "NO_CHUNKS_FOUND": "Für dieses Dokument wurden keine Chunks gefunden",
+      "PAGE": "Seite:",
+      "CONTAINS_IMAGES": "Enthält Bilder",
+      "CONTENT_REQUIRED": "Inhalt ist erforderlich und muss mindestens 1 Zeichen lang sein",
+      "SELECT_CHUNK_FROM_LEFT_PANEL": "Wählen Sie einen Chunk in der linken Leiste aus, um den Inhalt anzuzeigen",
+      "VIEW_CHUNKS_BUTTON": "Chunks anzeigen",
+      "NO_RESULTS_FOUND": "Keine Ergebnisse gefunden für `{{searchTerm}}`"
+    },
+    "ADD_TO_DATASET_FROM_CHAT": {
+      "TITLE": "Zu Test-Datensatz hinzufügen",
+      "BUTTON_TOOLTIP": "Zu Test-Datensatz hinzufügen",
+      "SELECT_DATASET": "Test-Datensatz",
+      "SELECT_DATASET_PLACEHOLDER": "Wählen Sie einen Test-Datensatz",
+      "SELECT_AGENT": "Agent (Optional)",
+      "SELECT_AGENT_PLACEHOLDER": "Wählen Sie einen Agenten",
+      "QUESTION": "Frage",
+      "QUESTION_PLACEHOLDER": "Geben Sie die Frage ein",
+      "QUESTION_REQUIRED": "Frage ist erforderlich (mindestens 3 Zeichen)",
+      "EXPECTED_OUTPUT": "Erwartete Antwort",
+      "EXPECTED_OUTPUT_PLACEHOLDER": "Geben Sie die erwartete Antwort ein",
+      "EXPECTED_OUTPUT_REQUIRED": "Erwartete Antwort ist erforderlich (mindestens 3 Zeichen)",
+      "DATASET_REQUIRED": "Bitte wählen Sie einen Test-Datensatz",
+      "NO_DATASETS": "Keine Test-Datensätze verfügbar. Bitte erstellen Sie zuerst einen Datensatz unter GPT-Einstellungen > Tests."
+    },
+    "DEALLOCATE_ASSET_CONFIRM": {
+      "TITLE": "Asset freigeben?",
+      "BODY": "Das Freigeben des Assets verschiebt ihn in den Assetpool.",
+      "CONFIRM": "Freigeben",
+      "ABORT": "Abbrechen"
+    },
+    "DELETE_ASSET_MESSAGE": {
+      "TITLE": "Ungültige Aktion",
+      "BODY": "Diese Aktion kann nicht abgeschlossen werden, da das Asset ein oder mehrere untergeordnete Elemente enthält.",
+      "DISMISS": "Schließen"
+    },
+    "DELETE_ASSET_ALIAS": {
+      "TITLE": "Asset-Alias löschen?",
+      "BODY": "Das Löschen eines Asset-Alias wird ihn dauerhaft aus der Liste entfernen.",
+      "CONFIRM": "Löschen",
+      "ABORT": "Abbrechen"
+    },
+    "DELETE_ASSET_CONFIRM": {
+      "TITLE": "Asset löschen?",
+      "BODY": "Das Löschen eines Assets wird es dauerhaft aus Ihrem Assetspool entfernen.",
+      "CONFIRM": "Löschen",
+      "ABORT": "Abbrechen"
+    },
+    "ADD_ALIAS": {
+      "TITLE": "Neuen Alias hinzufügen",
+      "CONFIRM": "Senden",
+      "ABORT": "Abbrechen"
+    },
+    "ASSET_QR_CODE": {
+      "TITLE": "Asset QR-Code"
+    },
+    "DELETE_ASSET_TYPE_CONFIRM": {
+      "TITLE": "Asssettyp löschen?",
+      "BODY": "Das Löschen eines Assettyps wird ihn dauerhaft aus der Liste entfernen.",
+      "CONFIRM": "Löschen",
+      "ABORT": "Abbrechen"
+    },
+    "DELETE_ASSET_TYPE_ERROR_MESSAGE": {
+      "TITLE": "Ungültige Aktion",
+      "BODY": "Diese Aktion kann nicht abgeschlossen werden.",
+      "DISMISS": "Schließen"
+    },
+    "DELETE_ASSET_TYPE_HAVE_ASSETS_ERROR_MESSAGE": {
+      "TITLE": "Wirklich löschen?",
+      "BODY": "Die Asset-Karte wirklich dauerhaft löschen?",
+      "DISMISS": "Abbrechen"
+    },
+    "DELETE_ASSET_MAPS_CONFIRM": {
+      "TITLE": "Asset-Karte löschen?",
+      "BODY": "Das Löschen einer Asset-Karte wird sie dauerhaft aus der Liste entfernen.",
+      "CONFIRM": "Löschen",
+      "ABORT": "Abbrechen"
+    },
+    "DELETE_ASSET_MAPS_ERROR_MESSAGE": {
+      "TITLE": "Ungültige Aktion",
+      "BODY": "Diese Aktion kann nicht abgeschlossen werden",
+      "DISMISS": "Schließen"
+    },
+    "ASSET_POOL": {
+      "TITLE": "Wählen Sie Assets zur Zuordnung aus",
+      "NAME": "Name",
+      "TYPE": "Typ",
+      "UPDATED_AT": "Aktualisiert am",
+      "CONFIRM": "Asset zuordnen",
+      "ABORT": "Abbrechen",
+      "NO_ASSETS_FOUND": "Keine Assets gefunden"
+    },
+    "PROPERTY": {
+      "TITLE": "Neue Eigenschaft hinzufügen",
+      "TITLE_EDIT": "Eigenschaft bearbeiten",
+      "CONFIRM": "Senden",
+      "CONFIRM_EDIT": "Speichern",
+      "ABORT": "Abbrechen"
+    },
+    "DELETE_PROPERTY_CONFIRM": {
+      "TITLE": "Eigenschaft löschen?",
+      "BODY": "Das Löschen einer Eigenschaft wird sie dauerhaft aus der Liste entfernen",
+      "CONFIRM": "Löschen",
+      "ABORT": "Abbrechen"
+    },
+    "TILE": {
+      "ADD_TILE": "Kachel hinzufügen",
+      "EDIT_TILE": "Kachel bearbeiten",
+      "NAME": "Kachelname",
+      "GRAFANA_DASHBOARD": "Grafana-Dashboard",
+      "GRAFANA_PANEL": "Grafana-Panel-Name",
+      "GRAFANA_PANEL_DYNAMIC_TEXT": "Dynamisch",
+      "GRAFANA_PANEL_DYNAMIC_TEXT_ON_PANEL": "Für diese Ausstattung",
+      "ON_ASSET_TYPE": "Für mehrere Assets",
+      "ON_ASSET_TYPE_CHECK": "Dieses Panel auf allen Assets mit dem gleichen Vermögenstyp wie dem aktuellen anzeigen",
+      "MAGIC_TILE": "Asset-spezifische Kachel",
+      "MAGIC_TILE_CHECK": "Geben Sie die Asset-ID des aktuellen Assets an das Panel weiter, um Diagramme anzuzeigen, die für diesen Asset gefiltert sind",
+      "MAGIC_TILE_CHECK_MULTIPLE_VARIABLES": "Dieses Panel kann mehrere Variablen empfangen",
+      "MAGIC_TILE_CHECK_MULTIPLE_VARIABLES_TOOLTIP": "Dies macht dieses Dashboard zu einem Multi-Maschinen-Dashboard und fügt einen Mehrfachauswahl-Asset-Filter hinzu",
+      "WIDTH": "Kachelbreite (Spalten)",
+      "HEIGHT": "Kachelhöhe (Zeilen)",
+      "OF": "von",
+      "ORDER": "Kachelreihenfolge",
+      "CANCEL": "Abbrechen",
+      "SUBMIT": "Absenden",
+      "SAVE_CHANGES": "Änderungen speichern",
+      "HIDE_TITLEBAR": "Titelleiste ausblenden und nur den Grafana Panel-Titel anzeigen",
+      "GRAFANA_VARIABLES": "Grafana-Variablen",
+      "USE_OWN_VARIABLES": "Grafana-Variablen auf dieses Panel anwenden",
+      "USE_VARIABLES": "Grafana-Variablen von anderen Panels empfangen",
+      "GRAFANA_TIMETYPE": "Grafana Zeittyp"
+    },
+    "GROUP_FILTER": {
+      "SELECT_EQUIPMENT": "Ausstattung auswählen",
+      "EQUIPMENT_GROUP": "Ausstattungsgruppe",
+      "EQUIPMENT": "Ausstattung",
+      "SELECT_CONVERSION_KIT": "Conversion-Kit auswählen",
+      "CONVERSION_KIT_GROUP": "Conversion-Kit-Gruppe",
+      "CONVERSION_KIT": "Conversion-Kit"
+    },
+    "LIMIT_RULES": {
+      "LIMIT_RULE_FOR": "Grenzwertregel für",
+      "WARNING_LIMIT_MIN": "Warnungsgrenze (Min.)",
+      "WARNING_LIMIT_MAX": "Warnungsgrenze (Max.)",
+      "CRITICAL_LIMIT_MIN": "Kritische Grenze (Min.)",
+      "CRITICAL_LIMIT_MAX": "Kritische Grenze (Max.)",
+      "CONFIRM": "Bestätigen"
+    },
+    "DELETE_APPLICATION_CONFIRM": {
+      "TITLE": "App löschen?",
+      "BODY": "App wirklich dauerhaft löschen?",
+      "CONFIRM": "Löschen",
+      "ABORT": "Abbrechen"
+    },
+    "DELETE_BOARD_CONFIRM": {
+      "TITLE": "Board löschen?",
+      "BODY": "Board wirklich dauerhaft löschen?",
+      "CONFIRM": "Löschen",
+      "ABORT": "Abbrechen"
+    },
+    "DELETE_DOCUMENT_CONFIRM": {
+      "TITLE": "Dokument löschen?",
+      "BODY": "Das Löschen eines Dokuments wird es dauerhaft aus der Liste entfernen",
+      "CONFIRM": "Löschen",
+      "ABORT": "Abbrechen"
+    },
+    "DELETE_DOCUMENT_TYPE_CONFIRM": {
+      "TITLE": "Dokumenttyp löschen?",
+      "BODY": "Das Löschen eines Dokumenttyps wird ihn dauerhaft aus der Liste entfernen",
+      "CONFIRM": "Löschen",
+      "ABORT": "Abbrechen"
+    },
+    "DELETE_DOCUMENT_TYPE_CONFLICT_MESSAGE": {
+      "TITLE": "Ungültige Aktion",
+      "BODY": "Kann den Dokumenttyp nicht löschen, da ihm Dokumente zugeordnet sind"
+    },
+    "DELETE_GATEWAY_CONFIRM": {
+      "TITLE": "Gateway löschen?",
+      "BODY": "Das Löschen eines Gateways wird es dauerhaft aus der Liste entfernen",
+      "CONFIRM": "Löschen",
+      "ABORT": "Abbrechen"
+    },
+    "CREATE_GATEWAY": {
+      "TITLE": "Gateway erstellen",
+      "NAME": "Gateway-Name",
+      "CONFIRM": "Erstellen",
+      "ABORT": "Abbrechen",
+      "NAME_LENGTH_ERROR": "Der eingegebene Wert für {{element}} ist zu lang"
+    },
+    "GPT_SETTINGS": {
+      "CANCEL": "Abbrechen"
+    },
+    "GPT_MANAGE_DOCUMENTS": {
+      "MANAGE": "Anpassen",
+      "MANAGE_DOCUMENTS": "Erweiterte von Dokumenteneinstellungen",
+      "SEARCH": "Suche",
+      "SORT_BY": "Sortieren nach",
+      "SELECT_SORT_TYPE": "Sortierart auswählen",
+      "USE_ALL_DOCUMENTS": "Alle Dokumente verwenden",
+      "FILE": "Datei",
+      "FILES": "Dateien",
+      "MODES": "Modi",
+      "GENERAL_DOCUMENT_SEARCH": "Allgemeine Dokumentensuche",
+      "SEARCH_DOCUMENT_SEARCH": "Spezifische Dokumentensuche",
+      "FILTERS": "Filter",
+      "CLEAR": "Zurücksetzen",
+      "CATEGORIES": "Kategorien",
+      "TAGS": "Tags",
+      "DATE_RANGE": "Datumsbereich",
+      "FROM": "Von",
+      "TO": "An",
+      "NEW_TO_OLD": "Von neu nach alt",
+      "OLD_TO_NEW": "Von alt zu neu",
+      "A_TO_Z": "A - Z",
+      "Z_TO_A": "Z - A"
+    },
+    "ROUTINE_MESSAGE": {
+      "TITLE": "Nachrichteninhalt",
+      "EMPTY": "Keine Nachricht angegeben",
+      "CLOSE": "Schließen"
+    }
+  },
+  "VIEWS": {
+    "DOCUMENT_VIEW": {
+      "HEADER": "PDF",
+      "PROMPT_LOAD_MORE": {
+        "MESSAGE": "Sie haben das Ende der geladenen Seiten erreicht. Gesamten PDF oder die nächsten 3 Seiten laden?",
+        "ACCEPT": "Gesamter PDF",
+        "REJECT": "Nächste 3 Seiten"
+      },
+      "PROMPT_LOAD_FULL": {
+        "MESSAGE": "Sie haben das Ende der geladenen Seiten erreicht. Gesamten PDF laden?",
+        "ACCEPT": "Gesamten PDF laden"
+      },
+      "LOADING_FULL": "Gesamtes Dokument wird geladen...",
+      "ADDED_PAGES": "Seiten {{from}}–{{to}} hinzugefügt",
+      "PARTIAL_SUMMARY": "Teilansicht",
+      "PARTIAL_DETAIL": "Nur ein Teil des PDFs ist derzeit geladen (Seiten {{from}}–{{to}})."
+    },
+    "DOCUMENT_TABS": {
+      "DOCUMENTS": "Dokumente",
+      "ALL_DOCUMENTS": "Alle Dokumente",
+      "DOCUMENT_TYPES": "Dokumentenkategorie",
+      "CREATE_NEW_DOCUMENT": "Dokument hinzufügen",
+      "CREATE_NEW_FOLDER": "Ordner erstellen",
+      "EDIT_FOLDER": "Ordner bearbeiten",
+      "CREATE_MP_NEW_DOCUMENT": "Mehrere Dokumenten hinzufügen",
+      "CREATE_NEW_DOCUMENT_TYPE": "Dokumentkategorie hinzufügen",
+      "NO_CONTENT_AVAILABLE": "Kein Inhalt verfügbar",
+      "PROMPT_ADD_FOLDER_OR_DOCUMENT": "Fügen Sie einen Ordner oder ein Dokument hinzu, um zu beginnen",
+      "NO_RESULTS_FOUND": "Keine Ergebnisse für \"{{term}}\" gefunden",
+      "TRY_DIFFERENT_QUERY": "Versuchen Sie es mit einem anderen Suchbegriff."
+    },
+    "DOCUMENT_INFO": {
+      "FILE": "Datei",
+      "DETAILS": "Details",
+      "FILE_NAME": "Dateiname",
+      "TAGS": "Tags",
+      "MACHINE_NAMES": "Maschinennamen",
+      "SHOPFLOOR_METADATA": "ShopfloorGPT-Metadaten",
+      "SHOPFLOOR_METADATA_STATUS": "{{plattformName}}-Status",
+      "VIEW_FILE": "Datei anzeigen",
+      "ADD_TAG": "Tag hinzufügen",
+      "ENTER_MACHINE_NAMES": "Maschinennamen auswählen",
+      "ENTER_FILE_DESCRIPTION": "Dateibeschreibung eingeben",
+      "ENTER_TAGS": "Tags auswählen",
+      "LOADING_GPT_METADATA": "{{plattformName}} extrahiert gerade Metadaten aus Ihrer Datei.",
+      "NO_STATUS_AVAILABLE": "Kein Status verfügbar",
+      "DOWNLOAD_FILE": "Datei herunterladen",
+      "NO_METADATA_EXTRACTED": "Es konnten keine Metadaten für das Dokument ermittelt werden"
+    },
+    "FOLDER": {
+      "DELETE_FOLDER_CONFIRM": "Ordner löschen",
+      "DELETE_FOLDER_MESSAGE": "Sind Sie sicher, dass Sie diesen Ordner löschen möchten?",
+      "DELETE_ALL_CONTENTS": "Ordner und gesamten Inhalt löschen",
+      "MOVE_CONTENTS_TO_OTHER": "Inhalte in einen anderen Ordner verschieben",
+      "SELECT_TARGET_FOLDER": "Zielordner auswählen",
+      "SELECT_FOLDER": "Ordner auswählen",
+      "MESSAGES": {
+        "ACTION_DENIED": "Datei kann nicht verschoben werden",
+        "MOVE_TO_SELF_ERROR": "Sie können den Ordner \"{{Ordnername}}\" nicht in sich selbst verschieben.",
+        "MOVE_TO_CHILD_ERROR": "Sie können den Ordner \"{{folderName}}\" nicht in einen seiner eigenen Unterordner verschieben.",
+        "FOLDER_NOT_FOUND": "Ordner nicht gefunden",
+        "FOLDER_ALREADY_DELETED": "Dieser Ordner existiert nicht mehr und wurde wahrscheinlich gelöscht.",
+        "CREATE_SUCCESS": "Der Ordner wurde erfolgreich erstellt.",
+        "CREATE_ERROR": "Der Ordner konnte nicht erstellt werden. Bitte versuchen Sie es erneut.",
+        "UPDATE_SUCCESS": "Der Ordner wurde erfolgreich aktualisiert.",
+        "UPDATE_ERROR": "Der Ordner konnte nicht aktualisiert werden. Bitte versuchen Sie es erneut.",
+        "DELETE_SUCCESS": "Der Ordner wurde erfolgreich gelöscht.",
+        "DELETE_ERROR": "Der Ordner konnte nicht gelöscht werden. Bitte versuchen Sie es erneut."
+      }
+    },
+    "DOCUMENTS": {
+      "NAME": "Name",
+      "TYPE": "Typ",
+      "LINK_TO_ASSETS": "Verknüpfte Assets",
+      "SIZE": "Größe",
+      "SIO_GPT_STATUS": {
+        "TAB_NAME": "{{plattformName}} Status",
+        "QUEUED": {
+          "TITLE": "In Warteschlange",
+          "STARTED": "Ihr Dokument befindet sich aktuell in der Warteschlange und wird bald von {{plattformName}} verarbeitet",
+          "COMPLETED": "Ihr Dokument wurde erfolgreich in die Verarbeitung von {{plattformName}} übergeben",
+          "ERROR": "Beim Eintragen Ihres Dokuments in die Warteschlange ist ein Fehler aufgetreten",
+          "YOUR_FILE_NEXT": "Ihre Datei ist als Nächstes an der Reihe",
+          "FILES_AHEAD": "Dateien davor",
+          "RAISE_PRIORITY": "Priorität erhöhen",
+          "BOOST_LIMIT_REACHED": "Boost-Limit für heute erreicht"
+        },
+        "PROCESSING": {
+          "TITLE": "Dokument wird verarbeitet",
+          "STARTED": "Das Dokument wird nun von {{plattformName}} verarbeitet",
+          "COMPLETED": "Das Dokument wurde erfolgreich verarbeitet",
+          "COMPLETED_WITH_ERRORS": "Die Verarbeitung wurde mit Fehlern abgeschlossen. Einige Seiten der PDF wurden nicht vollständig erfasst.",
+          "ERROR": "Bei der Verarbeitung des Dokuments ist ein Fehler aufgetreten"
+        },
+        "READY": {
+          "TITLE": "Bereit zur Nutzung",
+          "COMPLETED_WITH_ERRORS": "Die Verarbeitung wurde mit Fehlern abgeschlosen. Manche Seiten der PDF wurden nicht vollständig erfasst.",
+          "COMPLETED": "Das Dokument kann nun in {{plattformName}} verwendet werden",
+          "STARTED": "",
+          "ERROR": "Fehler aufgetreten"
+        },
+        "ABORTED": {
+          "TITLE": "Erfassung abgebrochen",
+          "COMPLETED": "Die Dokumentenerfassung wurde manuell abgebrochen. Sie können das Dokument erneut einlesen",
+          "ERROR": "Beim Verarbeiten ist ein Fehler aufgetreten. Der Upload wurde abgebrochen."
+        },
+        "FILE_TYPE_NOT_SUPPORTED": {
+          "TITLE": "Dateityp nicht unterstützt",
+          "COMPLETED": "Dieser Dateityp wird aktuell von {{plattformName}} nicht unterstützt"
+        },
+        "NEW_INGESTION_VERSION": {
+          "TITLE": "Update verfügbar",
+          "COMPLETED": "Eine aktualisierte Version für die Dokumentenerfassung ist verfügbar. Um die neuesten Funktionen zu nutzen, müssen Sie den Erfassungsprozess neu starten"
+        },
+        "LOW_RES_PROCESSING": {
+          "TITLE": "Text wird verarbeitet...",
+          "STARTED": "Der Text des Dokuments wird nun von {{assistantName}} verarbeitet und für die Agenten verfügbar gemacht",
+          "COMPLETED": "Die Textverarbeitung des Dokuments ist abgeschlossen",
+          "ERROR": "Bei der Text Verarbeitung Ihres Dokuments ist ein Fehler aufgetreten"
+        },
+        "HIGH_RES_PROCESSING": {
+          "TITLE": "Tabellen und Bilder werden verarbeitet...",
+          "STARTED": "Die Tabellen und Bilder des Dokuments werden nun von {{assistantName}} verarbeitet und für die Agenten verfügbar gemacht",
+          "COMPLETED": "Die Tabellen- und Bildverarbeitung des Dokuments ist abgeschlossen",
+          "ERROR": "Bei der Tabellen- und Bildverarbeitung Ihres Dokuments ist ein Fehler aufgetreten"
+        },
+        "DELETING_LOW_RES": {
+          "TITLE": "Aufräumarbeiten werden durchgeführt...",
+          "STARTED": "Das Dokument wurde erfolgreich verarbeitet und die Aufräumarbeiten werden durchgeführt",
+          "COMPLETED": "Die Aufräumarbeiten des Dokuments sind abgeschlossen",
+          "ERROR": "Bei der Aufräumarbeitung Ihres Dokuments ist ein Fehler aufgetreten"
+        },
+        "VLM_PDF2IMG": {
+          "TITLE": "Das Dokument wird konvertiert",
+          "STARTED": "Die Konvertierung des Dokuments wurde gestartet",
+          "COMPLETED": "Die Konvertierung des Dokuments ist abgeschlossen",
+          "ERROR": "Bei der Konvertierung des Dokuments ist ein Fehler aufgetreten"
+        },
+        "VLM_IMG2MARKDOWN": {
+          "TITLE": "Das Dokument wird verarbeitet",
+          "STARTED": "Die Verarbeitung des Dokuments wurde gestartet",
+          "COMPLETED": "Die Verarbeitung des Dokuments ist abgeschlossen",
+          "ERROR": "Bei der Verarbeitung des Dokuments ist ein Fehler aufgetreten"
+        }
+      },
+      "MESSAGES": {
+        "MOVE_COMPLETED": "Dateien wurden erfolgreich verschoben.",
+        "UPLOAD_SUCCESS": "Die Datei wurde erfolgreich hochgeladen.",
+        "REPROCESS_SUCCESS": "Die Datei wurde erfolgreich neu verarbeitet.",
+        "DELETE_SUCCESS": "Das Dokument wurde erfolgreich gelöscht.",
+        "DELETE_ERROR": "Das Dokument konnte nicht gelöscht werden. Bitte versuchen Sie es erneut.",
+        "SELECTED_DELETE_SUCCESS": "Die ausgewählten Elemente wurden erfolgreich gelöscht.",
+        "SELECTED_DELETE_ERROR": "Einige Elemente konnten nicht gelöscht werden. Bitte versuchen Sie es erneut.",
+        "BOOST_SUCCESS": "Die Ingestion-Warteschlange wurde erfolgreich beschleunigt.",
+        "BOOST_ERROR": "Die Ingestion-Warteschlange konnte nicht beschleunigt werden. Bitte versuchen Sie es erneut."
+      },
+      "DOCUMENT_UPLOAD": {
+        "REINGEST_DOCUMENTS_TITLE": "Dokumente erneut verarbeiten",
+        "TITLE": "Neue Dateien hinzufügen",
+        "DROPZONE": {
+          "UPLOAD_INSTRUCTION": "Ziehe deine Dokumente hierher, um mit dem Hochladen zu beginnen",
+          "MAX_SIZE": "Maximale Dateigröße beträgt {{maxSize}}",
+          "BUTTON": "Dateien auswählen"
+        },
+        "ERRORS_MESSAGES": {
+          "TOO_LARGE": "\"{{fileName}}\" kann nicht hochgeladen werden: Maximale Dateigröße überschritten ({{maxSize}}).",
+          "UNSUPPORTED_TYPE": "\"{{fileName}}\" kann nicht hochgeladen werden: Nicht unterstütztes Dateiformat",
+          "GENERIC": "Beim Hochladen der Dateien ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+          "UPLOAD_ERROR": "Die Datei konnte nicht hochgeladen werden. Bitte versuchen Sie es erneut.",
+          "REPROCESS_ERROR": "Die Datei konnte nicht neu verarbeitet werden. Bitte versuchen Sie es erneut."
+        },
+        "SELECT_FOLDER": "Ordner auswählen",
+        "MOVE_ITEMS_HEADER": "Elemente in Ordner verschieben",
+        "MOVE_ITEMS": "Elemente verschieben",
+        "HEADER_MOVE": "In den Ordner „{{name}}“ verschieben",
+        "HEADER_UPLOAD": "In den Ordner „{{name}}“ hochladen",
+        "SELECT_INGESTION_METHOD": "Wähle eine Methode zur Dokumentenverarbeitung für alle Dateien",
+        "FILE_NAME": "Dateiname",
+        "FILE_TYPE": "Dateityp:",
+        "FOLDER": "Ordner",
+        "INGESTION_METHOD": "Methode zur Dokumentenverarbeitung",
+        "UPLOAD": "Hochladen",
+        "SELECT_DIRECTORY": "Verzeichnis auswählen",
+        "PUBLIC_UPLOAD": "Öffentlich",
+        "PUBLIC_UPLOAD_TOOLTIP": "Dokumente für alle Mandanten verfügbar machen"
+      },
+      "LAST_CHANGED": "Zuletzt geändert",
+      "CREATED_BY": "Erstellt von",
+      "EDIT": "Bearbeiten",
+      "DELETE": "Löschen",
+      "INGEST": "Erneut versuchen",
+      "REINGEST": "Re-Ingest",
+      "NO_DOCUMENT_FOUND": "Kein Dokument gefunden",
+      "RESTART_INGESTION": "Ingestion wiederholen",
+      "RETRIGGER_INGESTION": "Ingestion erneut auslösen",
+      "REINGEST_STARTED": "Das Dokument wird für {{plattformName}} verabreitet.",
+      "REINGEST_FAILED_PAGES": "Fehlgeschlagene Seiten neu verarbeiten",
+      "REINGEST_FAILED_PAGES_TOOLTIP": "Alle Seiten neu verarbeiten, die während der Verarbeitung fehlgeschlagen sind",
+      "REINGEST_FAILED_PAGES_STARTED": "Fehlgeschlagene Seiten werden für {{plattformName}} neu verarbeitet.",
+      "REINGEST_FAILED_PAGES_ERROR": "Fehler beim erneuten Verarbeiten der fehlgeschlagenen Seiten. Bitte versuchen Sie es erneut.",
+      "ABORT_INGESTION": "Ingestion abbrechen",
+      "BREAKING_VERSION_RESTART_INGESTION": "Eine aktualisierte Version für die Dokumentenverarbeitung ist verfügbar. Um die neuesten Funktionen nutzen zu können, müssen Sie das Dokument neu einlesen.",
+      "REPROCESS_DOCUMENTS": "Dokumente erneut verarbeiten",
+      "INGESTION_ABORTED": "Der Dokumentverarbeitungsprozess wurde abgebrochen.",
+      "STOP_ALL_PROCESSING": "Alle KI-Verarbeitungen stoppen",
+      "RESTART_ALL_UPDATED": "Alle Dokumente mit Update neu verarbeiten",
+      "RESTART_ALL_FAILED": "Alle Dokumente mit Ingestionfehler neu verarbeiten",
+      "FOLDER": "Ordner",
+      "COMMON": {
+        "ROOT_DIRECTORY": "Hauptverzeichnis"
+      },
+      "STATUS_FILTER": {
+        "ALL": "Alle Status",
+        "NO_STATUS": "Kein Status",
+        "PLACEHOLDER": "Nach Status filtern"
+      },
+      "VISIBILITY_FILTER": {
+        "ALL": "Alle Dokumente",
+        "TENANT": "Nur Privat",
+        "PUBLIC": "Nur Öffentlich"
+      },
+      "FOLDER_VISIBILITY": {
+        "PUBLIC": "Alle Dokumente in diesem Ordner sind öffentlich",
+        "TENANT": "Alle Dokumente in diesem Ordner sind privat",
+        "MIXED": "Dieser Ordner enthält sowohl öffentliche als auch private Dokumente",
+        "EMPTY": "Dieser Ordner ist leer",
+        "CHANGE_TO_PUBLIC": "Alle Dokumente öffentlich machen",
+        "CHANGE_TO_TENANT": "Alle Dokumente privat machen",
+        "CONFIRM_PUBLIC": "Sind Sie sicher, dass Sie alle Dokumente in diesem Ordner öffentlich machen möchten? Sie werden für alle Tenants sichtbar sein.",
+        "CONFIRM_TENANT": "Sind Sie sicher, dass Sie alle Dokumente in diesem Ordner privat machen möchten? Sie werden nur innerhalb Ihres Tenants sichtbar sein.",
+        "SUCCESS": "Ordner-Dokumentsichtbarkeit erfolgreich aktualisiert",
+        "ERROR": "Fehler beim Aktualisieren der Ordner-Dokumentsichtbarkeit",
+        "UPDATED_COUNT": "{{count}} Dokument(e) aktualisiert"
+      },
+      "VISIBILITY_CHANGE": {
+        "TITLE": "Dokumentsichtbarkeit ändern",
+        "CONFIRM_PUBLIC": "Sind Sie sicher, dass Sie dieses Dokument öffentlich machen möchten? Es wird für alle Tenants sichtbar sein.",
+        "CONFIRM_TENANT": "Sind Sie sicher, dass Sie dieses Dokument privat machen möchten? Es wird nur innerhalb Ihres Tenants sichtbar sein.",
+        "SUCCESS": "Dokumentsichtbarkeit erfolgreich aktualisiert",
+        "ERROR": "Fehler beim Aktualisieren der Dokumentsichtbarkeit",
+        "TOOLTIP_PUBLIC": "Dieses Dokument ist öffentlich (für alle Tenants sichtbar). Klicken, um es privat zu machen.",
+        "TOOLTIP_TENANT": "Dieses Dokument ist privat. Klicken, um es öffentlich zu machen.",
+        "PUBLIC_INDICATOR": "Öffentliches Dokument"
+      },
+      "VISIBILITY": "Sichtbarkeit",
+      "PUBLIC": "Öffentlich",
+      "PRIVATE": "Privat",
+      "ALL": "Alle",
+      "IS_PUBLIC": "Öffentliche Dokumente einbeziehen",
+      "FILE_ID": "Datei-ID",
+      "CRAWLER_STATE": "Crawler Status",
+      "NO_DOCUMENTS_FOUND": "Keine Dokumente gefunden",
+      "SOURCE": "Quelle",
+      "ACTION": "Anzeigen",
+      "FILENAME": "File Name",
+      "CREATED_AT": "Erstellt am"
+    },
+    "DOCUMENT_DETAILS": {
+      "EDIT": "Bearbeiten",
+      "REMOVE": "Entfernen",
+      "SAVE_CHANGES": "Änderungen speichern",
+      "ADD_DOCUMENT": "Dokument hinzufügen",
+      "DOCUMENT_HISTORY": "Dokumentverlauf",
+      "DOCUMENT_NAME": "Dokumentname",
+      "DOCUMENT_TYPE": "Dokumenttyp",
+      "DOCUMENT_CATEGORY": "Dokumentkategorie",
+      "DOCUMENT_DETAILS": "Dokumentdetails",
+      "DOCUMENT_LINKED_ASSETS": "Verknüpfte Assets",
+      "ASSET_NAME": "Assetname",
+      "ASSET_TYPE": "Asset-Typ",
+      "ASSET_HIERARCHY": "Asset-Hierarchie",
+      "NO_ASSET_LINKED_FOUND": "Keine verknüpften Assets gefunden",
+      "NO_HISTORY_ACTIVITIES": "Keine Historie",
+      "NAME": "Name",
+      "TYPE": "Typ",
+      "VIEW_FILE": "Datei anzeigen",
+      "RENAME": "Umbenennen",
+      "DELETE": "Löschen",
+      "DATE_OR_TIME": "Datum/Uhrzeit",
+      "CHANGES_MADE": "Änderungen durchgeführt",
+      "CHANGED_BY": "Geändert von",
+      "CREATED_AT": "Erstellt am",
+      "CREATED_BY": "Erstellt von",
+      "NO_ACTIVITIES": "Keine Historie",
+      "DOCUMENT": "Dokument",
+      "DOCUMENT_ID": "Dokument-ID",
+      "CREATE_DOCUMENT": "Dokument erstellen",
+      "UPLOAD_FILE": "Neue Datei hochladen",
+      "PLEASE_CHOOSE": "Bitte auswählen",
+      "CATEGORY_FILTER": "Nach Kategorie filtern",
+      "ALL_CATEGORIES": "Alle Kategorien",
+      "NO_PREVIEW": "Keine Vorschau",
+      "GPT_STATUS": {
+        "TITLE": "{{plattformName}} Status",
+        "STEP": "Fortschritt",
+        "STATUS": "Status",
+        "LOGGED_AT": "Gelogget am",
+        "NO_STATUS": "Keine Einträge gefunden",
+        "CREATED_BY": "Erstellt von"
+      },
+      "DOCUMENT_INGESTION_METHOD": "Ingestion Strategie",
+      "INGESTION_METHODS": {
+        "SELECT_METHOD": "Verarbeitungsmethode auswählen",
+        "UNSTRUCTURED": {
+          "NAME": "Standardverarbeitung",
+          "DESCRIPTION": "Klassische KI-unterstützte OCR. Zuverlässige Extraktion mit Bildunterstützung, aber Formatierung und Positionierung können variieren"
+        },
+        "VLM": {
+          "NAME": "Visuelle Analyse",
+          "DESCRIPTION": "Exzellente Strukturerhaltung – ideal für Dokumente, bei denen das Layout wichtig ist. Weniger genau bei sehr großen Dateien"
+        },
+        "AZURE_DOC_INTELLIGENCE": {
+          "NAME": "Azure Document Intelligence",
+          "DESCRIPTION": "Kombiniert OCR und Machine Learning, um Text, Tabellen und Bilder mit hoher Genauigkeit und struktureller Integrität aus Dokumenten zu extrahieren. Unsere allgemeine Empfehlung."
+        },
+        "MARKER": {
+          "NAME": "Deep Vision Analyse",
+          "DESCRIPTION": "Kombiniert OCR und Vision-AI für eine hochperformante strukturelle Extraktion mit Bildunterstützung. Empfohlen für bildlastige Dokumente, wenn Nicht-EU-Server kein Problem sind. Rechenintensiv."
+        },
+        "IMAGE_ANALYSIS": {
+          "NAME": "Visuelle Bildanalyse",
+          "DESCRIPTION": "Direkte Bildanalyse und -beschreibung mit Vision-Modellen"
+        },
+        "TAGS": {
+          "IMAGE_EXTRACTION": "Extrahiert Bilder aus Dokumenten, die Agenten im Chat anzeigen können",
+          "EU_SERVER": "Daten werden auf EU-Servern verarbeitet",
+          "DATA_PROTECTION": "Keine Daten werden gespeichert oder für KI-Training verwendet"
+        }
+      },
+      "GPT_META": {
+        "TITLE": "{{plattformName}} Metadaten",
+        "MACHINE_NAME": "Maschinen Namen",
+        "MACHINE_ID": "Maschinen-Identifikatoren",
+        "CUSTOM_MACHINE_NAME": "Maschinenname erstellen",
+        "CUSTOM_MACHINE_ID": "Kundenspezifisches Maschinen-Identifizierungszeichen",
+        "ADD_TAG": "Tag hinzufügen",
+        "TAGS": "Tags",
+        "SELECT_METADATA": "Metadaten auswählen",
+        "CUSTOM_TAG": "Tag erstellen"
+      },
+      "DOWNLOAD_FILE": "Datei herunterladen",
+      "CANCEL": "Abbrechen",
+      "DOCUMENT_MAKE_PUBLIC": "Öffentliches Dokument (für alle Tenants zugänglich)"
+    },
+    "DOCUMENT_TYPES": {
+      "NAME": "Name",
+      "LINKED_DOCUMENTS": "Verknüpfte Dokumente",
+      "LAST_CHANGED": "Zuletzt geändert",
+      "CREATED_BY": "Erstellt von",
+      "EDIT": "Bearbeiten",
+      "DELETE": "Löschen",
+      "NO_DOCUMENT_TYPES_FOUND": "Keine Dokumentkategorien gefunden"
+    },
+    "ROUTINES": {
+      "DETAIL": {
+        "ROUTINE_INFO": "Allgmeine Informationen",
+        "NAME": "Routinen Name",
+        "AGENT": "Agent",
+        "PROMPT": "Aufgabe",
+        "SCHEDULE": "Zeitplan",
+        "EVERY": "Jede(n)",
+        "TIME": "Uhrzeit",
+        "FROM": "Von",
+        "TO": "Bis",
+        "REPEAT_ON": "Wiederhole an:",
+        "HOUR": "Stunde(n)",
+        "DAY": "Tag(e)",
+        "WEEK": "Woche(n)",
+        "MONTH": "Monat(e)",
+        "EMAIL": "E-Mail",
+        "NOTIFICATIONS": "Benachrichtigungen",
+        "CREATE_ROUTINE": "Routine erstellen",
+        "RECIPIENTS": "Empfänger",
+        "LAST_DAY": "Letzter Tag",
+        "ADD_RECIPIENT": "Empfänger hinzufügen",
+        "CONDITION": "Bedingung",
+        "CONDITION_PLACEHOLDER": "Sende die Email nur, wenn... ",
+        "ADD_CONDITION": "Bedingung hinzufügen",
+        "REMOVE_CONDITION": "Bedingung entfernen",
+        "PROMPT_PLACEHOLDER": "Erstelle einen Produktionsbericht für die letzten 7 Tage",
+        "TRY_ROUTINE": "Routine testen",
+        "PLEASE_CHOOSE": "Bitte auswählen",
+        "DAYS_SELECTED": "Tage ausgewählt",
+        "SELECT_AGENT": "Agent auswählen",
+        "DEFAULT_ROUTINE_INFO_TITLE": "ACHTUNG: Das ist eine Default-Routine.",
+        "DEFAULT_ROUTINE_INFO_MESSAGE": "Default-Routinen werden vom System automatisch bereitgestellt und fortlaufend aktualisiert. Fügen Sie dieser Routine Ihre persönliche E-Mail-Adresse als Empfänger hinzu, um sie auszuprobieren und die Möglichkeiten von Routinen besser kennenzulernen.<br><br>Machen Sie die Default-Routine zu Ihrer eigenen. Wenn Sie eine Default-Routine in Bezug auf den Namen oder die Aufgabe anpassen, wird sie nicht mehr vom System automatisch aktualisiert.",
+        "UNIT": "Einheit",
+        "SAVE_CHANGES": "Änderungen speichern",
+        "CREATE_NEW_ROUTINE": "Neue Routine erstellen",
+        "EDIT_ROUTINE": "Routine bearbeiten",
+        "RECIPIENT": "Empfänger",
+        "ACTIVE": "Aktiv",
+        "CHANNEL": "Kanal",
+        "DISCLAIMER": "{{settingsAssistantName}} kann Fehler machen. Überprüfen Sie Antworten mit wichtigen Informationen."
+      },
+      "TABLE": {
+        "TITLE": "Routine",
+        "ALL": "Alle Routinen",
+        "CREATE_NEW": "Neue Routine erstellen",
+        "NAME": "Name",
+        "PROMPT": "Prompt",
+        "EDIT": "Bearbeiten",
+        "DELETE": "Löschen",
+        "NO_ROUTINES_FOUND": "Keine Routinen gefunden",
+        "NEXT_EXECUTION_AT": "Nächste Ausführung",
+        "RECIPIENT": "Empfänger",
+        "EXECUTE": "Routine ausführen",
+        "ENABLE_ROUTINE": "Routine aktivieren",
+        "DISABLE_ROUTINE": "Routine deaktivieren",
+        "STATUS": "Status",
+        "ENABLED": "Aktiviert",
+        "DISABLED": "Deaktiviert"
+      },
+      "ERRORS": {
+        "DELETE": "Es gab einen Fehler beim löschen der Routine"
+      },
+      "HISTORY": {
+        "TITLE": "Verlauf",
+        "TYPE": "Typ",
+        "STATUS": "Status",
+        "EXECUTION_TIME": "Ausgeführt am",
+        "MESSAGE": "Nachricht",
+        "NO_ENTRIES": "Keine Einträge gefunden.",
+        "STATUSES": {
+          "DISPATCHED": "Gesendet",
+          "CONDITION_NOT_MET": "Bedingung nicht erfüllt",
+          "ERROR": "Fehler"
+        }
+      },
+      "ROUTINE_EXECUTED": "Sie haben die Routine erfolgreich ausgeführt. ",
+      "ROUTINE_EXECUTION_FAILED": "Es gab einen Fehler beim ausführen der Routine",
+      "EXECUTE_DISABLED_MISSING_AGENT": "Die Routine konnte nicht ausgeführt werden und wurde deaktiviert, da der zugewiesene Agent nicht mehr existiert.",
+      "EXECUTE_NO_RECIPIENTS": "Die Routine kann nicht ausgeführt werden, da keine Empfänger hinterlegt sind. Bitte fügen Sie mindestens einen Empfänger hinzu.",
+      "EXECUTE_SUCCESS_DETAIL": "Routine '{{name}}' wurde erfolgreich ausgeführt.",
+      "ENABLE_SUCCESS": "Routine \"{{routineName}}\" wurde erfolgreich aktiviert.",
+      "DISABLE_SUCCESS": "Routine \"{{routineName}}\" wurde erfolgreich deaktiviert.",
+      "DELETE_SUCCESS": "Routine wurde erfolgreich gelöscht.",
+      "CREATE_SUCCESS": "Routine wurde erfolgreich erstellt.",
+      "UPDATE_SUCCESS": "Routine wurde erfolgreich aktualisiert."
+    },
+    "ASSET_MAPS": {
+      "ID": "ID",
+      "BACKGROUND_IMAGE": "Hintergrundbild",
+      "ASSOCIATED_ASSET": "Verknüpftes Asset",
+      "NUMBER_OF_ASSETS": "Anzahl der Assets",
+      "EDIT": "Bearbeiten",
+      "CANCEL": "Abbrechen",
+      "DELETE": "Löschen",
+      "SAVE_CHANGES": "Änderungen speichern",
+      "CREATE_ASSET_MAP": "Asset-Karte erstellen",
+      "ASSET_MAPS_DETAILS": "Details der Asset-Karte",
+      "NO_ASSET_MAPS_FOUND": "Keine Asset-Karte gefunden",
+      "PARENT_ASSET": "Übergeordnetes Asset",
+      "ALLOCATE_ASSET_TO": "Asset zuweisen zu"
+    },
+    "KONTRON_DM": {
+      "NAME": "Name",
+      "ID": "ID",
+      "LINKED_EQUIPMENT": "Verknüpftes Equipment",
+      "CREATE_TENANT": "Tenant erstellen",
+      "CREATE_GATEWAY": "Gateway erstellen",
+      "TENANT_STATUS": "{{existingGateways}}/{{totalGateways}} Erfolgreich",
+      "DEVICE_STATUS": "Erfolgreich",
+      "MISSING_LINKED_EQUIPMENT": "Kein verknüftes Equipment"
+    },
+    "ASSET_TABS": {
+      "ASSETS": "Assets",
+      "ALLOCATED_ASSETS": "Zugeordnete Assets",
+      "MAPS": "Status-Karten",
+      "ASSET_POOL": "Assetpool",
+      "ASSET_TYPES": "Assettypen",
+      "CREATE_NEW_ASSET": "Neues Asset erstellen",
+      "CREATE_NEW_ASSET_TYPE": "Neuen Assettyp erstellen",
+      "CREATE_NEW_MAP": "Neue Asset-Karte erstellen",
+      "SEARCH": "Suchen...",
+      "GATEWAYS": "Gateways",
+      "CREATE_GATEWAY": "Gateway erstellen",
+      "KONTRON_DM": "Kontron DM"
+    },
+    "ALLOCATED_ASSETS": {
+      "NAME": "Name",
+      "TYPE": "Typ",
+      "ID": "ID",
+      "DOCUMENTS": "Dokumente",
+      "CREATED_OR_UPDATED_AT": "Erstellt/Aktualisiert am",
+      "CHANGE_ORDER": "Reihenfolge ändern",
+      "CHANGE_PARENT_ASSET_TO": "Übergeordnetes Asset ändern zu",
+      "CHANGE_PARENT_ASSET_TO_PRE": "Asset verschieben",
+      "EDIT": "Bearbeiten",
+      "ADD_POOL_ASSET": "Asset zum Pool hinzufügen",
+      "CREATE_NEW_SUB_ASSET": "Neues Sub-Asset erstellen",
+      "DUPLICATE": "Duplizieren",
+      "DEALLOCATE": "Deallokieren",
+      "DELETE": "Löschen",
+      "EXPAND_ALL": "Alle erweitern",
+      "COLLAPSE_ALL": "Alle einklappen",
+      "ASSET_SUCCESSFULLY_DEALLOCATED": "Asset erfolgreich deallokiert",
+      "NO_ASSETS": "Keine Assets verfügbar"
+    },
+    "ASSET_POOL": {
+      "NAME": "Name",
+      "TYPE": "Typ",
+      "ID": "ID",
+      "DOCUMENTS": "Dokumente",
+      "CREATED_OR_UPDATED_AT": "Erstellt/Aktualisiert am",
+      "ALLOCATE_ASSET_TO": "Asset zuweisen zu",
+      "EDIT": "Bearbeiten",
+      "ADD_POOL_ASSET": "Asset zum Pool hinzufügen",
+      "CREATE_NEW_SUB_ASSET": "Neues Asset erstellen",
+      "DUPLICATE": "Duplizieren",
+      "DELETE": "Löschen",
+      "NO_ASSETS": "Keine Assets verfügbar"
+    },
+    "ASSET_DETAILS": {
+      "EDIT": "Bearbeiten",
+      "REMOVE": "Entfernen",
+      "CANCEL": "Abbrechen",
+      "SAVE_CHANGES": "Änderungen speichern",
+      "DOCUMENTS": "Dokumente",
+      "ADD_DOCUMENT": "Dokument hinzufügen",
+      "ASSET_HISTORY": "Asset-Verlauf",
+      "CHANGE_IMAGE": "Bild ändern",
+      "ASSET_NAME": "Asset-Name",
+      "ASSET_TYPE": "Asset-Typ",
+      "DESCRIPTION": "Beschreibung",
+      "ISA95_TYPE": "ISA95-Typ",
+      "PARENT_ASSET": "Übergeordnetes Asset",
+      "ASSET_DETAILS": "Asset-Details",
+      "ASSET_ALIASES": "Asset-Aliase",
+      "ALIAS": "Alias",
+      "ADD_ALIAS": "Alias hinzufügen",
+      "DEALLOCATE": "Deallokieren",
+      "NAME": "Name",
+      "TYPE": "Typ",
+      "DATE_UPLOADED": "Hochgeladen am",
+      "UPLOADED_BY": "Hochgeladen von",
+      "RENAME": "Umbenennen",
+      "DELETE": "Löschen",
+      "DATE_OR_TIME": "Datum/Uhrzeit",
+      "CHANGES_MADE": "Vorgenommene Änderungen",
+      "CHANGED_AT": "Geändert am",
+      "CHANGED_BY": "Geändert von",
+      "CREATED_AT": "Erstellt am",
+      "CREATED_BY": "Erstellt von",
+      "ACTIVITY_TYPE": "Aktivitätstyp",
+      "DOCUMENT": "Dokument",
+      "DOCUMENT_ID": "Dokument-ID",
+      "SELECT_FILE_TO_UPLOAD": "Datei zum Hochladen auswählen",
+      "CREATE_ASSET": "Asset erstellen",
+      "UPLOAD_IMAGE": "Bild hochladen",
+      "PLEASE_CHOOSE": "Bitte auswählen",
+      "NONE": "Keine",
+      "DYNAMIC_PROPERTIES": "Dynamische Eigenschaften",
+      "GLOBAL_PROPERTIES": "Globale Eigenschaften",
+      "INCORRECT_FILE_TYPE": "Falscher Dateityp. Erwartet: JPEG, PNG",
+      "LOADING_ERROR": "Fehler beim Laden",
+      "LIVE_STATUS": "Live-Status",
+      "VIEW_DETAILS": "Details anzeigen",
+      "ASSET_IMAGE": "Asset-Bild",
+      "DELETE_IMAGE": "Bild löschen",
+      "VALUE_TOO_LONG": "Der eingegebene Wert für {{element}} ist zu lang",
+      "VALUE_REQUIRED": "Das Feld {{element}} ist verpflichtend",
+      "GATEWAY": "Gateway",
+      "GATEWAY_CONFIG": "Gateway Konfiguration",
+      "CREATE_GATEWAY": "Neues Gateway erstellen",
+      "ACCESS_KEY": "Access key",
+      "LAST_VALUE": "Letzter gespeicherter Wert",
+      "NO_LAST_VALUE": "Kein letzter gespeicherter Wert gefunden",
+      "LAST_STATE": "Letzter Maschinenzustand",
+      "NO_LAST_STATE": "Kein letzter Maschinenzustand gefunden",
+      "LAST_STATE_UPDATED_AT": "Letztes Update des Maschinenzustands am {{element}}",
+      "LAST_VALUE_UPDATED_AT": "Letzer gespeicherter Telemetrywert für '{{parameter}}' am {{element}}",
+      "DEVICE_ID": "Eindeutige Geräte-ID",
+      "NO_ALIASES": "Keine Aliase vorhanden",
+      "NO_DOCUMENTS": "Keine Dokumente vorhanden",
+      "NO_ACTIVITIES": "Keine Historie vorhanden",
+      "NO_PROPERTIES": "Keine Eigenschaften vorhanden",
+      "LNG": "Längengrad",
+      "LAT": "Breitengrad",
+      "ALT": "Höhe (über N.N.)",
+      "DELIMITER": "Oder",
+      "LAST_VALUE_VALUE": "Letzter gespeicherter Wert '{{value}}' für Parameter '{{parameter}}'",
+      "NO_ASSIGNED_ASSETS": "Keine zugewiesenen Assets",
+      "MACHINE_ID": "Maschinen-ID",
+      "CONNECTOR_TYPE": "Connector-Typ",
+      "SYSTEM_VERSIONS": {
+        "TITLE": "Systemversionen",
+        "NAME": "Name",
+        "VERSION": "Version",
+        "TIMESTAMP": "Geändert am",
+        "DEDICATED_SETUP": "Dediziert"
+      },
+      "DATAACT": "Datenübertragung",
+      "OPTIN": {
+        "NAME": {
+          "MACHINEINFORMATIONUPLOADENABLED": "Maschinenidentifikation",
+          "SYSTEMVERSIONSUPLOADENABLED": "Systemversionen",
+          "MACHINESTATEUPLOADENABLED": "Maschinenstatus",
+          "MACHINEMESSAGESUPLOADENABLED": "Maschinenmeldungen",
+          "COOLINGUNITDATAUPLOADENABLED": "Kühleinheit",
+          "CNCOPERATIONDATAUPLOADENABLED": "CNC-Achsen",
+          "SPINDLEOPERATIONDATAUPLOADENABLED": "Spindel",
+          "WIREOPERATIONDATAUPLOADENABLED": "Erodierdraht",
+          "JOBDATAUPLOADENABLED": "Jobs",
+          "JOBAGGREGATIONUPLOADENABLED": "Job-Metriken",
+          "MACHINEMETRICSUPLOADENABLED": "Maschinen-Metriken"
+        },
+        "DESC": {
+          "MACHINEINFORMATIONUPLOADENABLED": "Allgemeine Maschinendaten wie Typ und Seriennummer",
+          "SYSTEMVERSIONSUPLOADENABLED": "Systemversionen der Maschine",
+          "MACHINESTATEUPLOADENABLED": "Status der Maschine",
+          "MACHINEMESSAGESUPLOADENABLED": "Info-, Warn- und Fehlermeldungen",
+          "COOLINGUNITDATAUPLOADENABLED": "Telemetriedaten der Kühleinheit",
+          "CNCOPERATIONDATAUPLOADENABLED": "Telemetriedaten der CNC-Achsen",
+          "SPINDLEOPERATIONDATAUPLOADENABLED": "Telemetriedaten der Spindel",
+          "WIREOPERATIONDATAUPLOADENABLED": "Telemetriedaten des Erodierdrahts",
+          "JOBDATAUPLOADENABLED": "Prozessdaten",
+          "JOBAGGREGATIONUPLOADENABLED": "Voraggregierte Prozessdaten",
+          "MACHINEMETRICSUPLOADENABLED": "Voraggregierte Maschinendaten"
+        },
+        "WARNING_TITLE": "Übergeordnetes Asset",
+        "WARNING_MESSAGE": "Die Datenübertragung wird für jede Maschine einzeln festgelegt. Um die Nutzung zu erleichtern, können Sie dies hier für alle untergeordneten Maschinen zentral anpassen. <br><br> <strong>Bitte beachten Sie:</strong> Bei übergeordneten Assets kann die Darstellung abweichen, wenn individuelle Anpassungen an untergeordneten Assets vorgenommen wurden.",
+        "CATEGORIES": "Datenkategorien"
+      },
+      "CONSENT_LOG": "Logs Einwilligung Datenübertragung",
+      "ACTIVATED": "Aktiviert",
+      "DEACTIVATED": "Deaktiviert",
+      "NO_CONSENT_LOGS": "Keine Logs vorhanden"
+    },
+    "ASSET_TYPES": {
+      "NAME": "Name",
+      "CANCEL": "Abbrechen",
+      "ISA95_TYPE": "ISA95-Typ",
+      "PARENT_ASSET_TYPE": "Übergeordneter Asset-Typ",
+      "LAST_CHANGED": "Erstellt/Aktualisiert am",
+      "LAST_CHANGED_BY": "Zuletzt geändert von",
+      "EDIT": "Bearbeiten",
+      "DELETE": "Löschen",
+      "NO_ASSET_TYPES_FOUND": "Keine Asset-Typen gefunden"
+    },
+    "ASSET_ALIAS_TYPES": {
+      "GENERAL": "Allgemein",
+      "QR_CODE": "QR-Code"
+    },
+    "ASSET_TYPE_DETAILS": {
+      "ASSET_TYPE_DETAILS": "Asset-Typ-Details",
+      "ASSET_TYPE_NAME": "Asset-Typ-Name",
+      "PARENT_ASSET": "Übergeordnetes Asset",
+      "ISA95_TYPE": "ISA95-Typ",
+      "DESCRIPTION": "Beschreibung",
+      "DYNAMIC_PROPERTIES": "Dynamische Eigenschaften",
+      "GLOBAL_PROPERTIES": "Globale Eigenschaften",
+      "ASSIGNED_ASSETS": "Zugeordnete Assets",
+      "MANDATORY": "Obligatorisch",
+      "DISPLAY": "Anzeige",
+      "ADD_NEW_PROPERTY": "Neue Eigenschaft hinzufügen",
+      "PROPERTY_NAME": "Eigenschaftsname",
+      "NAME": "Name",
+      "TYPE": "Typ",
+      "KEY": "Schlüssel",
+      "DEFAULT_VALUE": "Standardwert",
+      "CHECKED": "Markiert",
+      "HIDDEN": "Versteckt",
+      "REQUIRED": "Erforderlich",
+      "UPDATED_AT": "Zuletzt aktualisiert am",
+      "SAVE_CHANGES": "Änderungen speichern",
+      "CANCEL": "Abbrechen",
+      "PLEASE_CHOOSE": "Bitte auswählen",
+      "CREATE_ASSET_TYPE": "Asset-Typ erstellen",
+      "NONE": "Keine",
+      "EDIT": "Bearbeiten",
+      "DELETE": "Löschen",
+      "NO_PROPERTIES": "Keine Eigenschaften vorhanden"
+    },
+    "CONFIG_MANAGEMENT": {
+      "TITLE": "Konfigurationsverwaltung",
+      "CONFIGS": "Konfigurationen",
+      "SAVE_CHANGES": "Änderungen speichern",
+      "NAME": "Name",
+      "VALUE": "Wert",
+      "DESCRIPTION": "Beschreibung"
+    },
+    "ASSET_OVERVIEW": {
+      "OVERVIEW": "Übersicht",
+      "ASSET_NAME": "Asset-Name",
+      "ASSET_TYPE": "Asset-Typ",
+      "SUB_ASSETS": "Sub-Assets",
+      "NO_SUB_ASSETS": "Keine Sub-Assets"
+    },
+    "ASSET_DOCUMENTS": {
+      "NAME": "Name",
+      "DOCUMENTS": "Dokumente",
+      "DESCRIPTION": "Beschreibung",
+      "TYPE": "Typ",
+      "DATE_UPLOADED": "Datum des Uploads",
+      "NO_DOCUMENTS": "Keine Dokumente vorhanden"
+    },
+    "IFRAME_TILE": {
+      "HEADER": "Input URL für iframe"
+    },
+    "IMAGE_TILE": {
+      "HEADER": "Wähle ein Bild für den Upload",
+      "UPLOAD": "Upload"
+    },
+    "MARKDOWN_TILE": {
+      "HEADER": "Eingabedaten über Asset",
+      "PREVIEW": "Vorschau"
+    },
+    "ANALYTICS_RULES": {
+      "ADD_TILE": "Kachel hinzufügen",
+      "EDIT": "Bearbeiten",
+      "DELETE": "Löschen",
+      "PANEL_NOR_FOUND": "Panel nicht gefunden"
+    },
+    "OEE_MONITORING": {
+      "OVERALL_STATUS": "Gesamtstatus",
+      "OVERALL": "Gesamt",
+      "GOAL": "Ziel"
+    },
+    "ASSET_TIMELINE": {
+      "TIMELINE": "Zeitleiste",
+      "ERROR_TYPE": "Fehlertyp",
+      "DESCRIPTION": "Beschreibung",
+      "DATE": "Datum"
+    },
+    "OEE_DETAILS": {
+      "MONTHLY_VALUE": "Monatswert",
+      "AVERAGE_VALUE": "Durchschnittswert",
+      "MONTHLY_THROUGHPUT": "Monatlicher Durchsatz",
+      "THROUGHPUT": "Durchsatz",
+      "OEE_DAILY_TREND": "Täglicher OEE-Trend",
+      "EQUIPMENT_STATUS_HISTORY": "Verlauf des Gerätestatus",
+      "THROUGHPUT_DAILY_TREND": "Täglicher Trend des Durchsatzes"
+    },
+    "MULTIBOARD": {
+      "ADMIN_TITLE": "Apps",
+      "ADMIN_THIS_APP_TITLE": "Aktuelle Anwendung verwalten",
+      "APPLICATION": "Applikation {{appName}}",
+      "NEW_APPLICATION": "Neue Applikation",
+      "BUTTONS": {
+        "CREATE": "Erstellen",
+        "CANCEL": "Abbrechen",
+        "SAVE": "Speichern",
+        "CREATE_NEW": "Neues erstellen"
+      },
+      "FORM": {
+        "NAME": "Name",
+        "DESCRIPTION": "Beschreibung",
+        "IMAGE": "Bild",
+        "ALIAS": "Alias",
+        "ACTIVE_NOTICE": "Aktiv - App wird dem User angezeigt"
+      },
+      "BOARDS": "Boards",
+      "TABLE": {
+        "NAME": "Name",
+        "DESCRIPTION": "Beschreibung",
+        "DISPLAY_ON": "Anzeige auf",
+        "CREATED": "Erstellt",
+        "ACTIONS": "Aktionen"
+      },
+      "APP_LIST": {
+        "APPLICATION_OVERVIEW": "Applikationsüberblick",
+        "CREATE_NEW": "Neu erstellen",
+        "NO_RECORDS": "Keine Einträge verfügbar",
+        "NAME": "Name",
+        "DESCRIPTION": "Beschreibung",
+        "CREATED": "Erstellt",
+        "BOARDS": "Boards",
+        "ACTIONS": "Aktionen",
+        "SEARCH": "Suche..."
+      },
+      "DETAILS": {
+        "BOARD": "Board",
+        "CREATE_BOARD": "Erstelle neues Board",
+        "GENERAL": "Allgemein",
+        "TILES": "Kacheln",
+        "CANCEL": "Abbrechen",
+        "SAVE": "Speichern",
+        "NAME": "Name",
+        "DESCRIPTION": "Beschreibung",
+        "ACTIVE_NOTICE": "Aktiv - App wird dem User angezeigt",
+        "DISPLAY_BOARD_ON": "Zeige Board auf",
+        "MOUNTPOINT": "Einhängepunkt",
+        "MOUNT_TYPE": "Einhängungstyp",
+        "ADD_MOUNT_TYPE": "Einhängepunkt hinzufügen",
+        "SELECTED_ENTITY": "Ausgewählte Entität",
+        "ACTION": "Aktion"
+      },
+      "TILE_DETAIL": {
+        "CREATE_TILE": "Kachel erstellen",
+        "EDIT_TILE": "Kachel bearbeiten",
+        "GENERAL": "Allgemein",
+        "NAME": "Name",
+        "DESCRIPTION": "Beschreibung",
+        "TILE_SIZE": "Kachelgröße",
+        "COLUMN_SIZE": "{{size}} Spalten",
+        "ROW_SIZE": "{{size}} Reihen",
+        "DISPLAY_OPTIONS": "Anzeigeoptionen",
+        "TILE_OPTIONS": "Kacheloptionen",
+        "ACTIVE_NOTICE": "Aktiv - App wird dem User angezeigt",
+        "SHOW_IN_TITLEBAR": "Zeige den eingegebenen Titel in der Titlebar",
+        "SHOW_IN_FULLSIZE": "Zeige nur diese Kachel im Vollbild (andere werden versteckt)",
+        "SHOW_FOR_SUBASSET": "Zeige diese Kachel in jedem Sub-Asset",
+        "NO_CONFIGURATION": "Für diese Kachel ist keine weitere Konfiguration möglich",
+        "CREATE": "Erstellen",
+        "SAVE": "Speichern",
+        "CLOSE": "Abbrechen"
+      },
+      "TILE_STORE": {
+        "TILE_STORE": "Kachelverzeichnis",
+        "SEARCH_FOR": "Suche nach Kachel...",
+        "CANCEL": "Abbrechen"
+      },
+      "TILE_VIEW": {
+        "ADD_TILE": "Kachel hinzufügen",
+        "NO_ASSETS_SELECTED": "Keine Assets ausgewählt",
+        "NO_ASSETS_HELP_TEXT": "Bitte wähle ein Asset von dem Assetbaum (linke Seite) um Informationen anzuzeigen",
+        "SELECT_DEVICES": "Maschinen auswählen",
+        "NOTHING_DISPLAY": "Nichts anzuzeigen",
+        "NOTHING_DISPLAY_HELP_TEXT": "Für dieses Asset oder Assettypen wurde kein Board definiert",
+        "MULTI_DEVICE_SUPPORTED": "Multi Geräte Auswahl im Dashboard unterstützt",
+        "BACK": "Zurück",
+        "MANAGE": "Verwalten"
+      },
+      "TILE": {
+        "NO_TILE_FOUND": "Keine Kachel gefunden"
+      }
+    },
+    "DOCUMENT_TYPE_DETAILS": {
+      "DOCUMENT_TYPE_DETAILS": "Dokumenttypdetails",
+      "CATEGORY_NAME": "Kategoriename",
+      "DOCUMENT_TYPE_HISTORY": "Dokumentkategorieverlauf",
+      "DATE_OR_TIME": "Datum/Uhrzeit",
+      "CHANGES_MADE": "Änderungen durchgeführt",
+      "CHANGED_BY": "Geändert von",
+      "DOCUMENT_NAME": "Dokumentname",
+      "LINKED_DOCUMENTS": "Verknüpfte Dokumente",
+      "NO_DOCUMENT_TYPES_FOUND": "Keine verknüpften Dokumente gefunden",
+      "CANCEL": "Abbrechen",
+      "SAVE_CHANGES": "Änderungen speichern",
+      "CREATE_DOCUMENT_TYPE": "Dokumentkategorie erstellen",
+      "NO_ACTIVITIES": "Keine Historie",
+      "NO_DOCUMENTS": "Keine Dokumente"
+    },
+    "GATEWAYS": {
+      "ACTIVE": "Aktiv",
+      "NAME": "Name",
+      "CONFIGURED_ASSETS": "Assets",
+      "CONFIGURED_AUTHS": "Zugänge",
+      "GATEWAY_DETAILS": "Details",
+      "AUTHS": "Zugänge",
+      "ASSIGNED_ASSETS": "Zugeordnete Assets",
+      "DEVICE_ID": "Eindeutige Geräte-ID",
+      "ASSET": "Asset",
+      "CONNECTIVITY": "Verbindungsstatus",
+      "STATE": "Zustand",
+      "MESSAGES": "Nachrichten",
+      "TRANSFER": "Übertragen",
+      "MQTT": "MQTT Topic",
+      "SIMULATION": "Simulation aktiv",
+      "ACCESS_KEY": "Zugangsschlüssel",
+      "LAST_VALUE": "Letzter gespeicherter Wert",
+      "NO_LAST_VALUE": "Kein Wert gefunden",
+      "LAST_STATE": "Letzter Maschinenzustand",
+      "NO_LAST_STATE": "Kein Maschinenzustand gefunden",
+      "LAST_STATE_UPDATED_AT": "Letztes Update des Maschinenzustands am {{element}}",
+      "LAST_VALUE_UPDATED_AT": "Letzer gespeicherter Telemetrywert für '{{parameter}}' am {{element}}",
+      "LAST_VALUE_VALUE": "Letzter gespeicherter Wert '{{value}}' für Parameter '{{parameter}}'",
+      "NO_GATEWAYS_FOUND": "Keine Gateways gefunden",
+      "SELECT_ASSET": "Asset auswählen",
+      "ASSIGN_ASSET": "Asset zuweisen",
+      "CREATED": "Gateway erfolgreich erstellt",
+      "CREDMODAL": {
+        "NEW": "Neue Zugangsdaten",
+        "NEW_TXT1": "Neue Zugangsdaten wurden für dieses Gateway angelegt.",
+        "NEW_TXT2": "Bitte speichern oder notieren sie diese an einem sicheren Ort.",
+        "NEW_TXT_BOLD": "Nachdem das Fenster geschlossen wurde, können sie diese nicht nochmals einsehen!",
+        "USERNAME": "Username",
+        "PASSWORD": "Password",
+        "DOWNLOAD": "Download",
+        "CA": "CA Certificate",
+        "CRT": "Client Certificate",
+        "KEY": "Client Private Key",
+        "CLOSE": "Close"
+      }
+    },
+    "INFO": {
+      "WELCOME": "Willkommen",
+      "REGISTERED_TITLE": "Neu Registriert?",
+      "REGISTERED_TEXT": "Wir prüfen Ihre Registrierung.<br>Ihr Zugang wird anschließend freigeschaltet.",
+      "LOGOUT_TEXT": "Sie werden abgemeldet in {{countdown}}...",
+      "LOGOUT": "Jetzt abmelden"
+    }
+  },
+  "TRANSLATE": {
+    "LANGUAGE": "Deutsch"
+  },
+  "TILES": {
+    "DOCUMENTS": {
+      "SETTINGS_TITLE": "Dokumenteinstellungen",
+      "SHOW_DESCRIPTION": "Zeige Beschreibung"
+    }
+  },
+  "CLEAR_IMAGE": "Bild löschen",
+  "REPLACE_IMAGE": "Bild ersetzen",
+  "USER_NAME": "Benutzername",
+  "FIRST_NAME": "Vorname",
+  "SURNAME": "Nachname",
+  "EMAIL": "E-Mail",
+  "ROLE": "Rolle",
+  "SET_A_NEW_PASSWORD": "Neues Passwort festlegen",
+  "REPEAT_PASSWORD": "Passwort wiederholen",
+  "CREATE_A_NEW_USER": "Neuen Nutzer erstellen",
+  "ADD_EXISTING_USER": "Vorhandenen Benutzer hinzufügen",
+  "EMAIL_OR_USERNAME": "Benutzername oder E-Mail-Adresse",
+  "ADD_EXISTING_USER_SAVE": "Benutzer einladen",
+  "REMOVE_USER": "Benutzer entfernen",
+  "DELETE_USER": "Benutzer löschen",
+  "ADDED_USER_TO_TENANT": "Benutzer erfolgreich hinzugefügt",
+  "USER_MANAGEMENT": "Nutzerverwaltung",
+  "PRIVACY": "Privatsphäre",
+  "USER": "Nutzer",
+  "TENANT_MANAGEMENT": "Tenant Management",
+  "ASSET_MANAGEMENT": "Asset Management",
+  "HUB": "Hub",
+  "EMPTY_NAME": "Leerer Name",
+  "NEW_USER": "Neuer Benutzer",
+  "SEARCH": "Suche...",
+  "dueDate": "Fällig bis",
+  "title": "Titel",
+  "asset": "Ausrüstung",
+  "responsible": "Verantwortlich",
+  "status": "Status",
+  "maintenance": "Wartungen",
+  "due": "Fällig",
+  "dateFilter": "Datumsfilter",
+  "all": "alle",
+  "scheduled": "geplant",
+  "dueSoon": "bald fällig",
+  "overdue": "überfällig",
+  "completed": "abgeschlossen",
+  "newMaintenancePlan": "Neue Wartung planen",
+  "earliestExecution": "Früheste Ausführung",
+  "repeatInterval": "Wiederholungsintervall",
+  "duration": "Dauer des Auftrags",
+  "inputErrorMessage": "Das Feld muss mit einem gültigen {{value}} ausgefüllt werden",
+  "earliestPossibleProcessingErrorMessage": "Das Datum der frühesten Ausführung muss vor dem Fälligkeitstermin liegen",
+  "category": "Kategorie",
+  "description": "Beschreibung",
+  "tasks": "Aufgaben",
+  "task": "Aufgabe",
+  "targetTime": "Geplante Zeit",
+  "documents": "Dokumente",
+  "type": "Typ",
+  "markAsDone": "Als erledigt markieren",
+  "validTill": "Fällig bis",
+  "earliestPossibleProcessing": "Frühestmögliche Bearbeitung",
+  "uploadFiles": "Dateien hochladen",
+  "addTask": "Aufgabe hinzufügen",
+  "noDocument": "Dieser Wartung wurden keine Dokumente hinzugefügt.",
+  "editMaintenance": "Wartung bearbeiten",
+  "createNewMaintenance": "Neue Wartung erstellen",
+  "uploadNewFiles": "Neue Dateien hochladen",
+  "addFiles": "Dateien hinzufügen",
+  "addExistingDocument": "Vorhandenes Dokument hinzufügen",
+  "create": "Erstellen",
+  "save": "Speichern",
+  "next": "Weiter",
+  "clear": "Leeren",
+  "confirm": "Bestätigen",
+  "completedBy": "Abgeschlossen von",
+  "comment": "Kommentar",
+  "complete": "Abschließen",
+  "my": "Meine",
+  "actuallySpendTime": "Aufgewendete Zeit",
+  "timeUnit": "Zeiteinheit",
+  "choose": "Bitte auswählen",
+  "minutes": "Minuten",
+  "hours": "Stunden",
+  "days": "Tage",
+  "hour": "Stunde",
+  "day": "Tag",
+  "week": "Woche",
+  "month": "Monat",
+  "year": "Jahr",
+  "every": "jede",
+  "everySingular": "jeden",
+  "yearly": "Jahre",
+  "monthly": "Monate",
+  "weekly": "Wochen",
+  "daily": "Tage",
+  "hourly": "Stunden",
+  "archive": "Archiv",
+  "createdAt": "Erstellt am",
+  "editDocument": "Dokument bearbeiten",
+  "assignTasks": "Aufgaben zuweisen",
+  "connectTasks": "Aufgaben zuordnen",
+  "telTec": "Telefon des Servicetechnikers",
+  "emailTect": "E-Mail des Servicetechnikers",
+  "operatingHours": "Betriebsstunden",
+  "costCenter": "Kostenstelle",
+  "sapWorkplace": "SAP-Arbeitsplatz",
+  "warrantyPeroid": "Garantiezeitraum",
+  "close": "Schließen",
+  "internal": "Intern",
+  "external": "Extern",
+  "copyMaintenance": "Wartung kopieren",
+  "createCopy": "Kopie erstellen",
+  "taskCompleteWarning": "Diese Aufgabe kann noch nicht abgeschlossen werden.",
+  "error": "Fehler",
+  "Department": "Abteilung",
+  "Location": "Standort",
+  "timeSpend": "Dauer",
+  "completedAt": "Abgeschlossen am",
+  "Machine stop": "Maschinenstillstand",
+  "Machine running": "Maschine in Betrieb",
+  "dueAt": "Fällig am",
+  "earliestProcessing": "Früheste Bearbeitung",
+  "dueNoLaterThan": "Spätestens fällig am",
+  "after": "nach",
+  "limit": "Limit",
+  "reached": "erreicht",
+  "left": "verbleibend",
+  "characters": "Zeichen",
+  "fileUploadError": "Datei konnte nicht hochgeladen werden.",
+  "noDocuments": "Keine Dokumente",
+  "noMaintenance": "Keine Wartung",
+  "ROLE_IN_TENANT": "Rolle [in diesem Mandanten]",
+  "SUBJECT": "Betreff",
+  "PLEASE_ENTER": "Bitte eingeben",
+  "MESSAGE": "Nachricht",
+  "TAKE_IMAGE_VIDEO": "Foto/Video aufnehmen",
+  "UPLOAD_FILE": "Datei hochladen",
+  "NONE": "KEINE",
+  "PRODUCING": "Produzierend",
+  "PLEASE_CHOOSE": "Bitte auswählen",
+  "CHOOSE_ASSET": "Asset auswählen",
+  "NO_ASSETS_CHOSEN": "Keine Assets ausgewählt",
+  "TOPIC": "Thema",
+  "PREFERRED_COMM_METHOD": "Bevorzugte Kommunikationsmethode",
+  "TENANT_LIST": {
+    "NAME": "Name",
+    "STATUS": "Status",
+    "LAST_CHANGED": "Zuletzt Geändert",
+    "OWNED_BY": "Gehört",
+    "TAGS": "Schlagworte",
+    "NEW_TENANT": "Neuer Tenant",
+    "FILTER_FOR_STATUS": "Statusfilter",
+    "SEARCH": "Suche...",
+    "TENANTS": "Tenant",
+    "ACTIVE": "Aktiv",
+    "INACTIVE": "Inaktiv",
+    "INSTRUCTION": "Wählen sie einen Tenant um direkt in den Hub des Tenants zu wechseln oder verwalten sie die Tenants.",
+    "NO_TENANTS": "Keine Tenants vorhanden",
+    "TITLE": "Tenantübersicht",
+    "DEBITOR_ID": "Debitor ID"
+  },
+  "TENANT_DETAIL": {
+    "TENANT_NAME": "Tenantname",
+    "MACHINE_DATA_SERVICE_URL": "Machine Data Service Url",
+    "TAGS": "Tags",
+    "ADD_TAG": "Tag hinzufügen",
+    "NEW_TENANT": "Neuer Tenant",
+    "TENANT_DETAILS": "Tenant Details",
+    "TENANT_DEBITOR_ID": "Debitor ID"
+  },
+  "ERRORS": {
+    "NAME_REQUIRED": "Tenant-Name ist erforderlich",
+    "NAME_LENGTH_MIN": "Tenant-Name muss mindestens 3 Zeichen lang sein",
+    "DEBITOR_ID_REQUIRED": "Debitor ID ist erforderlich",
+    "DEBITOR_ID_LENGTH": "Debitor ID muss genau 7 Zeichen lang sein",
+    "DEBITOR_ID_ALREADY_EXISTS": "Debitor ID bereits vorhanden",
+    "FIELD_REQUIRED": "Dieses Feld ist erforderlich",
+    "FIELD_MIN_LENGTH": "Dieses Feld muss mindestens {{length}} Zeichen lang sein",
+    "FIELD_MAX_LENGTH": "Dieses Feld darf nicht mehr als {{length}} Zeichen haben"
+  },
+  "UPLOAD_IMAGE": "Bild hochladen",
+  "NAME": "Name",
+  "UPDATED_AT": "Zuletzt geändert",
+  "ROLES": "Rollen",
+  "NEW_ROLE": "Neue Rolle",
+  "ROLE_NAME": "Rollenname",
+  "ROLE_EMPTY": "Rollenname darf nicht leer sein",
+  "RIGHTS_LENGTH_IS_TOO_SHORT": "Rechtename ist zu kurz",
+  "ALL_USERS": "Alle Benutzer",
+  "ALL_ROLES": "Rollen & Rechte",
+  "CREATE_A_NEW_ROLE": "Neue Rolle erstellen",
+  "ACTIONS": "Aktionen: ",
+  "RIGHTS": "Rechte",
+  "ACTIVATE_ALL": "Alle aktivieren",
+  "ASSIGNED_RIGHTS": "Zugewiesene Rechte",
+  "EMPTY_ROLES": "Keine Rollen gefunden",
+  "EMPTY_USERS": "Keine Benutzer gefunden",
+  "USERNAME": "Benutzer",
+  "INVALID_USERNAME": "Bitte wählen sie einen Benutzernamen",
+  "INVALID_FIRSTNAME": "Bitte wählen sie einen Vornamen",
+  "INVALID_SURNAME": "Bitte wählen sie einen Nachnamen",
+  "INVALID_EMAIL": "Bitte gültige E-Mail Adresse eingeben",
+  "DEFAULT_ROLE": "(default role)",
+  "INVALID_PASSWORD": "Bitte wählen sie ein Passwort mit min. 8 Zeichen und ohne Umlaute",
+  "PASSWORDS_NOT_MATCHING": "Passwörter stimmen nicht überein",
+  "USER_ALREADY_EXISTS": "Ein Benutzer mit demselben Benutzernamen oder derselben E-Mail-Adresse existiert bereits.",
+  "DESCRIPTION": "Beschreibung",
+  "BUILD_IN": "Vorkonfiguriert",
+  "YES": "Ja",
+  "NO": "Nein",
+  "INVALID_FILE_TYPE": "Ungültiger Dateityp.",
+  "ERROR": "Fehler",
+  "404_NOT_AVAILABLE": "404 nicht verfügbar",
+  "403_NO_ACCESS": {
+    "TITLE": "Zugriff verweigert",
+    "DESCRIPTION": "Sie haben keine Berechtigung, auf diese Seite zuzugreifen.",
+    "INFO": "Bitte wenden Sie sich an Ihren Administrator, wenn Sie der Meinung sind, dass Sie Zugriff auf diese Ressource haben sollten."
+  },
+  "404_NOT_FOUND": {
+    "ACTION": "Zur Startseite"
+  },
+  "ASSET": "Asset",
+  "I/E": "I/E",
+  "RESPONSIBLE": "Verantwortlicher",
+  "ALL_MAINTENANCES": "Alle Wartungen",
+  "CHOOSE_TIMESTAMP": "Zeitraum auswählen",
+  "LIVE_DATA": "Live Daten",
+  "CHOOSE_APP": "Wähle eine Applikation:",
+  "ENTER_TEXT": "Text hier eingeben...",
+  "EQUIPMENT": "Equipment",
+  "TEXT_TOO_LONG": "Der eingegebene Text ist zu lang",
+  "EMPTY_MESSAGE_NOT_ALLOWED": "Die Nachricht darf nicht leer sein. Bitte geben Sie einen Text ein.",
+  "RIGHT_CATEGORIES": {
+    "AD": "Anomalieerkennungsmodell",
+    "CM": "Condition Monitoring",
+    "GENERAL": "Allgemein",
+    "TENANT": "Mandantenverwaltung",
+    "USER": "Benutzerverwaltung",
+    "HUB": "Hub-Einstellungen",
+    "DOCUMENT": "Dokumentenverwaltung",
+    "ASSISTANT": "Assistentenverwaltung",
+    "AGENT": "Agentenverwaltung",
+    "SPECIFICATION": "Spezifikationsverwaltung",
+    "KNOWLEDGE": "Wissenssammlungsverwaltung",
+    "ROUTINE": "Routinenverwaltung",
+    "CHAT": "Chatverwaltung",
+    "GPT": "GPT-Einstellungen",
+    "ACTIVATE_ALL": "Alle aktivieren",
+    "DEACTIVATE_ALL": "Alle deaktivieren",
+    "RIGHTS": "Recht",
+    "GRAFANA": "Grafana-Einstellungen",
+    "ACTION": "Aktion",
+    "ASSET": "Asset Management"
+  },
+  "GPT_SETTINGS": {
+    "MODALS": {},
+    "GENERAL": {
+      "BOT_NAME": "Plattform Name",
+      "FAST_LLM": "Schnelles LLM",
+      "THINK_LLM": "Performance LLM",
+      "THINK_LLM_DESCRIPTION": "Wird für komplexe Aufgaben verwendet, die tiefgreifendes Denken und Verständnis erfordern.",
+      "FAST_LLM_DESCRIPTION": "Wird für schnelle und einfache Aufgaben wie Übersetzungen oder Zusammenfassungen verwendet.",
+      "LLM_INFOTEXT": "Wählen Sie aus einer vielfältigen Auswahl an Sprachmodellen, einschließlich Open-Source-Optionen, die in der Cloud bereitgestellt werden. Während alle verfügbaren Modelle unseren strengen Datenschutzrichtlinien entsprechen, empfehlen wir die Azure OpenAI-Modelle für optimale Leistung und Zuverlässigkeit. Jedes Modell wurde sorgfältig geprüft, um eine sichere und effiziente Verarbeitung Ihrer Anfragen zu gewährleisten.",
+      "VISUAL_LLM": "Visual Document LLM",
+      "VISUAL_LLM_DESCRIPTION": "Wird für die Verarbeitung von PDF-Seiten und Bildern verwendet. Dieses Modell konvertiert visuelle Inhalte in Text zur weiteren Analyse.",
+      "LOGO": "Logo",
+      "LOGO_DND_HINT": "Zum Hochladen anklicken oder Datein heineinziehen",
+      "LOGO_SIZE_HINT": "Maximale Dateigröße ist {{ size }}MB",
+      "LOG_MESSAGES": "Nachrichten protokollieren",
+      "LLM": "Standard LLM",
+      "DEFAULT_CHAT_QUESTIONS": "Standard Chat Fragen",
+      "CATEGORY": "Kategorie",
+      "PROMPT": "Eingabeaufforderung",
+      "LLM_INFO": "",
+      "ADD_PROMPT": "Prompt hinzufügen",
+      "ADD_CATEGORY": "Kategorie Hinzufügen",
+      "NEW_DEFAULT_CHAT_QUESTIONS_CATEGORY": "Neue Kategorie von Standard-Chat-Fragen",
+      "GENERATING": "Prompts werden generiert"
+    },
+    "TABS": {
+      "GENERAL": "Allgemein",
+      "CHANNELS": "Kanäle",
+      "GRAPH_OVERVIEW": "Übersicht Agentengraph",
+      "INSIGHTS": "Erkenntnisse",
+      "APPEARANCE": "Erscheinungsbild",
+      "TASKS": "Aufgaben",
+      "TESTING": "Tests",
+      "AGENTS": "Agenten",
+      "ASSISTANTS": "Assistenten",
+      "KNOWLEDGE_COLLECTIONS": "Knowledge Collections",
+      "TOOLS": "Tools",
+      "INTERFACES": "Interfaces",
+      "DOCUMENTS": "Dokumente"
+    },
+    "CHANNELS": {
+      "ADD": "Kanäle hinzufügen",
+      "EDIT": "Kanäle bearbeiten ",
+      "DELETE_CONFIRM": "Möchten Sie dieses Kanal unwiderruflich löschen?.",
+      "FORM": {
+        "MAKE_INTERFACE": {
+          "API_KEY": "API-Schlüssel"
+        }
+      },
+      "CHANNELS_VIEW": {
+        "NO_CHANNELS_FOUND_HEADER": "Keine Kanäle gefunden",
+        "NO_CHANNELS_FOUND_SUBTEXT": "Klicke auf 'Kanal hinzufügen', um deinen ersten Kanal zu erstellen."
+      }
+    },
+    "FORMS": {
+      "API_CONNECTION_FORM": {
+        "API_KEY": "API-Schlüssel"
+      },
+      "ADD_EXISTING_SKILL_FORM": {
+        "SKILL_NAME": "Skill-Name"
+      },
+      "ADD_NEW_SKILL_FORM": {
+        "NAME": "Skill-Name",
+        "DESCRIPTION": "Skill-Beschreibung",
+        "AGENTS": "Agenten"
+      },
+      "CREATE_CONNECTION_FORM": {
+        "NAME": "Name",
+        "TYPE": "Typ",
+        "SELECT_TYPE": "Typ auswählen...",
+        "TEST_CONNECTION": "Verbindung testen"
+      },
+      "DATABASE_CONNECTION_FORM": {
+        "HOST": "Host",
+        "PORT": "Port",
+        "USER": "Benutzer",
+        "PASSWORD": "Passwort",
+        "DATABASE_NAME": "Datenbankname",
+        "DB_SCHEMA": "Datenbankschema",
+        "PLACEHOLDER": "Bitte eingeben"
+      },
+      "DOCUMENT_CONNECTION_FORM": {
+        "USE_AGENT_DOCS": "Agenten-Konfiguration verwenden",
+        "USE_AGENT_DOCS_TOOLTIP": "Verwende die Dokumenteinstellungen, die im Wissensbereich des Agenten konfiguriert sind, der diesen Assistenten nutzt",
+        "SINGLE_DOC_SEARCH_TOOLTIP": "Findet und durchsucht automatisch das relevanteste Dokument aus deiner Auswahl für deine spezifische Frage.",
+        "MULTI_DOC_SEARCH_TOOLTIP": "Durchsucht alle ausgewählten Dokumente, um eine umfassende Antwort aus deiner gesamten Dokumentensammlung zu geben."
+      },
+      "APPEARANCE_FORM": {
+        "BOT_NAME": "Chat-Assistent Name",
+        "CHARACTER_DEFINITION": "Charaktereigenschaften",
+        "COMPANY_INFORMATION": "Informationen zum Ihrem Unternehmen",
+        "COMPANY_INFORMATION_PLACEHOLDER": "Bitte beschreiben Sie kurz Ihr Unternehmen und die Branche, in der Sie tätig sind, wenn Sie möchten, dass diese Informationen für {{assistantName}} bereitgestellt werden.",
+        "LOGO": "Logo",
+        "LOGO_DND_HINT": "Zum Hochladen anklicken oder Datein heineinziehen",
+        "LOGO_SIZE_HINT": "Maximale Dateigröße ist {{ size }}MB",
+        "RUN": "Ausführen"
+      },
+      "CONNECTION_FORM": {
+        "TOKEN": "API Token",
+        "URL": "URL",
+        "DB_SCHEMA ": "Datenbank Schema"
+      }
+    },
+    "CONNECTIONS": {
+      "ADD_CONNECTION": "Verbindung hinzufügen",
+      "ORGANIZATION": "Organisation",
+      "BUCKET": "Bucket",
+      "DOCUMENTS_ASSISTANT": {
+        "TITTLE": "Documents",
+        "DESCRIPTION": "Zugriff auf das shopfloor.io Dokumentenmanagement"
+      },
+      "ERROR_HTTPS_URL": "Ungültige URL. Bitte verwenden Sie https://",
+      "ERROR_URL": "Ungültige URL.",
+      "DOCUMENTS_TOOL": {
+        "TITTLE": "Documents",
+        "DESCRIPTION": "Zugriff auf das shopfloor.io Dokumentenmanagement"
+      }
+    },
+    "GRAPH": {
+      "FIXED_ASSISTANTS": {
+        "CHAT_GENERATION_TOOL": "Diagrammerstellung"
+      }
+    },
+    "MESSAGES": {
+      "APPEARANCE_SAVE_SUCCESS": "Einstellungen wurden erfolgreich gespeichert",
+      "APPEARANCE_SAVE_ERROR": "Ein Fehler ist beim Speichern der Einstellungen aufgetreten",
+      "SELECT_FILE_ERROR": "Die Datei sollte ein Bild sein und nicht größer als {{ Größe }}MB",
+      "SAVE_CONNECTION_FAILED": "Verbindungen konnten nicht gespeichert werden. Bitte versuchen Sie es erneut.",
+      "CATEGORIES_SAVE_SUCCESS": "Kategorien-Einstellungen erfolgreich gespeichert",
+      "CATEGORIES_SAVE_ERROR": "Beim Speichern der Kategorien ist ein Fehler aufgetreten",
+      "ADD_ICON_ERROR_UPDATE": "Bitte fügen Sie ein Symbol hinzu, um den Abschnitt mit den Standardfragen zu aktualisieren",
+      "ADD_ICON_ERROR_CREATE": "Ein Symbol hinzufügen, um den Abschnitt für Standardfragen zu erstellen",
+      "ADD_PROMPT_ERROR": "Mindestens 1 Eingabeaufforderung hinzufügen",
+      "UPDATE_DEFAULT_QUESTIONS_SUCCESS": "Der Abschnitt für die Standard-Chatfragen wurde erfolgreich aktualisiert",
+      "CREATE_DEFAULT_QUESTIONS_SUCCESS": "Der Abschnitt für die Standard-Chatfragen wurde erfolgreich erstellt",
+      "AGENT_ASSISTANTS_ERROR": "Bitte wählen Sie mindestens ein Assistent aus",
+      "GENERATE_CATEGORY_SUCCESS": "Sehen Sie sich die neuesten Kategorien und Prompts an!",
+      "GENERATE_CATEGORY_ERROR": "Fehler bei der Generierung!",
+      "AGENT_IMAGE_ERROR": "Beim generieren des Agentenbilds ist ein Fehler aufgetreten",
+      "CONNECTION_TEST_SUCCESS": "Verbindung erfolgreich getestet.  Sie können das Interface jetzt speichern.",
+      "TEST_CONNECTION_FAILED": "Verbindung fehlgeschlagen. Bitte überprüfen Sie die bereitgestellten Daten.",
+      "SAVE_CONNECTION_SUCCESS": "Connection erfolgreich gespeichert",
+      "CONNECTIONS_LOAD_ERROR": "Die Assistenten konnten nicht geladen werden",
+      "DELETE_CONNECTION_SUCCESS": "Assistent erfolgreich gelöscht",
+      "DELETE_CONNECTION_FAILED": "Der Assistent konnte nicht gelöscht werden",
+      "CHANNEL_SAVE_SUCCESS": "Channel wurde erfolgreich gespeichert.",
+      "CHANNEL_DELETE_SUCCESS": "Channel wurde erfolgreich gelöscht.",
+      "CHANNEL_SAVE_FAILED": "Channel konnte nicht gespeichert werden. Bitte versuchen Sie es erneut.",
+      "CHANNEL_DELETE_FAILED": "Channel konnte nicht gelöscht werden. Bitte versuchen Sie es erneut.",
+      "AGENT_TOOLS_ERROR": "Bitte wählen Sie mindestens ein Tool aus"
+    },
+    "INSTRUCTIONS": {
+      "SLACK": {
+        "STEPS": {
+          "STEP_1": "Erstellen eines Slack-Bots",
+          "STEP_2": "Abrufen des Signing Secret",
+          "STEP_3": "Abrufen des App-Level-Tokens",
+          "STEP_4": "Aktivieren des Socket-Modus",
+          "STEP_5": "Aktivieren von Ereignisabonnements und Hinzufügen von Ereignissen",
+          "STEP_6": "Hinzufügen von Scopes",
+          "STEP_7": "Abrufen des Bot-Tokens und Hinzufügen des Bots zum Workspace"
+        },
+        "TEXT": {
+          "1.1": "Gehe zur Slack API und klicke auf 'Create New App' über den Link.",
+          "1.2": "Wähle 'From scratch', gib einen App-Namen ein, wähle einen Workspace und klicke auf 'Create App'.",
+          "2.1": "Gehe zu 'Basic Information', finde den Signing Secret unter 'App Credentials' und kopiere ihn.",
+          "2.2": "Füge den kopierten Signing Secret in das entsprechende Feld ein.",
+          "3.1": "Scrolle nach unten zum Abschnitt 'App-Level Tokens'.",
+          "3.2": "Klicke im Abschnitt 'App-Level Tokens' auf 'Generate Token and Scopes'.",
+          "3.3": "Gib einen Namen für das Token ein, füge die erforderlichen Scopes aus der Liste hinzu und bestätige.",
+          "3.4": "Kopiere das Token, das mit 'xapp' beginnt, und klicke dann auf 'Done'.",
+          "3.5": "Füge das kopierte App-Token in das entsprechende App-Token-Feld ein.",
+          "4.1": "Gehe zur Registerkarte 'Socket Mode' und aktiviere den Socket-Modus.",
+          "5.1": "Gehe zur Registerkarte 'Event Subscriptions' und aktiviere die Ereignisabonnements.",
+          "5.2": "Klicke auf 'Add Bot User Event' und wähle die erforderlichen Ereignisse aus der Liste aus.",
+          "6.1": "Gehe zur Registerkarte 'OAuth & Permissions' und scrolle nach unten.",
+          "6.2": "Klicke auf 'Add an OAuth Scope' und füge alle erforderlichen Scopes aus der Liste hinzu.",
+          "6.3": "Nachdem die erforderlichen Scopes hinzugefügt wurden, klicke auf 'Add an OAuth Scope', um zu bestätigen.",
+          "7.1": "Gehe in derselben Registerkarte 'OAuth & Permissions' zum Abschnitt 'OAuth Tokens' und klicke auf 'Install to Workspace', um den Bot zu installieren.",
+          "7.2": "Klicke auf 'Allow', um die erforderlichen Berechtigungen zu gewähren.",
+          "7.3": "Kopiere das Bot User OAuth Token, das mit 'xoxb' beginnt.",
+          "7.4": "Füge das kopierte Bot-Token in das entsprechende Bot-Token-Feld ein, fülle das gesamte Formular aus und klicke dann auf 'Test', um die Verbindung zu überprüfen. Warte auf eine Erfolgsmeldung und klicke anschließend auf 'Save'.",
+          "7.5": "Um den Bot zu testen, gehe zu Slack, navigiere zum Zielkanal, erwähne deinen Bot mit @botname und sende eine Testnachricht.",
+          "7.6": "Füge den Bot dem entsprechenden Kanal hinzu.",
+          "7.7": "Du kannst den Bot jetzt verwenden, indem du ihn mit @botname in Slack erwähnst."
+        }
+      }
+    },
+    "INSIGHTS": {
+      "INSIGHT": "Erkenntnis",
+      "INSIGHTS": "Erkenntnisse",
+      "ADD_INSIGHT": "Einblick hinzufügen"
+    },
+    "TESTING": {
+      "NO_DATASETS_FOUND": "Keine Datensätze gefunden",
+      "NO_DATASETS_HINT": "Klicken Sie auf 'Datensatz hinzufügen', um Ihren ersten Test-Datensatz zu erstellen.",
+      "ERROR_CREATING_DATASET": "Datensatz konnte nicht erstellt werden. Bitte versuchen Sie es erneut.",
+      "ERROR_UPDATING_DATASET": "Fehler",
+      "ERROR_LOADING_DATASETS": "Datensätze konnten nicht geladen werden. Bitte versuchen Sie es erneut.",
+      "ERROR_ADDING_ITEM": "Element konnte nicht zum Datensatz hinzugefügt werden. Bitte versuchen Sie es erneut.",
+      "DATASET_NOT_FOUND": "Ausgewählter Datensatz nicht gefunden. Bitte versuchen Sie es erneut.",
+      "DATASET_ALREADY_EXISTS": "Ein Datensatz mit diesem Namen existiert bereits. Bitte wählen Sie einen anderen Namen.",
+      "ITEM_ADDED_TO_DATASET": "Frage und Antwort wurden erfolgreich zum Test-Datensatz hinzugefügt",
+      "ADD_TESTING": "Datensatz hinzufügen",
+      "ADD_ITEM": "+ Test-Item hinzufügen",
+      "DATASET_CREATED_SUCCESSFULLY": "Datensatz erfolgreich erstellt",
+      "DATASET_ITEM_CREATED_SUCCESSFULLY": "Datensatz-Element erfolgreich erstellt",
+      "DATASET_ITEM_UPDATED_SUCCESSFULLY": "Datensatzelement erfolgreich aktualisiert",
+      "DATASET_ITEM_DELETED_SUCCESSFULLY": "Dataset-Element erfolgreich gelöscht",
+      "DATASET_DELETED_SUCCESSFULLY": "Datensatz erfolgreich gelöscht",
+      "DATASET_UPDATING_SUCCESSFULLY": "Datensatz erfolgreich aktualisiert",
+      "TEST_SUCCESS": "Test erfolgreich abgeschlossen!",
+      "TEST_FAILED": "Test fehlgeschlagen! Bitte versuchen Sie es erneut.",
+      "EXPECTED_OUTPUT": "Erwartete Antwort",
+      "ACTUAL_OUTPUT": "Agenten Antwort",
+      "IN_PROGRESS": "In Arbeit",
+      "CONCISENESS": "Prägnanz",
+      "CORRECTNESS": "Korrektheit",
+      "TEST_ITEM_TABLE": {
+        "TEST_RESULT_HEADER": "Testergebnis für: {{ datasetName }}",
+        "TEST_RESULT_HEADER_TESTING": "Durchführung von Tests mit dem Datensatz. Bitte warten...",
+        "QUESTION": "Frage",
+        "CONTENT": "Inhalt",
+        "PROGRESS": "Test Fortschritt",
+        "TEST_IS_STARTING": "Der Test startet in Kürze...",
+        "CORRECT": "Korrekt",
+        "CONCISENESS": "Kürze",
+        "CORRECTNESS": "Richtigkeit",
+        "CONCISE": "Prägnant"
+      },
+      "DATASET_FORM": {
+        "TEST_ACTION": "Datensatz testen",
+        "CREATE_FORM_TITLE": "Neuen Datensatz erstellen",
+        "EDIT_FORM_TITLE": "Datensatz bearbeiten",
+        "NAME": "Name des Datensatzes",
+        "DESCRIPTION": "Beschreibung",
+        "ACTIONS": "Aktionen",
+        "ITEMS": "Test-Items",
+        "MODALS": {
+          "CONFIRM_DELETE_DATASET_TITLE": "Datensatz löschen",
+          "CONFIRM_DELETE_DATASET_TEXT": "Sind Sie sicher, dass Sie diesen Datensatz löschen wollen?"
+        }
+      },
+      "CREATE_DATASET_MODAL": {
+        "TITLE": "Neuen Test-Datensatz erstellen",
+        "NAME_PLACEHOLDER": "Geben Sie den Datensatznamen ein",
+        "NAME_REQUIRED": "Datensatzname ist erforderlich (mindestens 3 Zeichen)",
+        "DESCRIPTION_PLACEHOLDER": "Geben Sie eine Datensatzbeschreibung ein (optional)"
+      },
+      "DATASET_FORM_ITEM": {
+        "CREATE_TITLE": "Neues Item erstellen",
+        "EDIT_TITLE": "Test-Item bearbeiten",
+        "INPUT": "Eingabe",
+        "SUBMIT": "Einreichen",
+        "SELECT_AGENT": "Agent auswählen",
+        "AGENT": "Agent",
+        "MODALS": {
+          "DELETE_ITEM": "Test-Item löschen",
+          "CONFIRM_DELETE_ITEM": "Sind Sie sicher, dass Sie diesen Test-Item löschen möchten?"
+        },
+        "NO_ITEMS": "Keine Test-Items"
+      }
+    },
+    "AGENTS": {
+      "NEW_AGENT": "Neuer Agent",
+      "DELETE_CONFIRM": "Agent '{{agent_name}}' unwiderruflich löschen?",
+      "AGENT_DETAILS": "Agentendetails",
+      "NAME": "Name",
+      "NAME_PLACEHOLDER": "Text eingeben",
+      "LLM_MODEL": "LLM-Modell",
+      "DESCRIPTION": "Beschreibung",
+      "IMAGE": "Bild",
+      "IMAGE_OPTIONAL": "*optional",
+      "INSTRUCTIONS": "Anweisungen",
+      "INSTRUCTIONS_PARENT": "Geerbt von:",
+      "ADD_NEW": "+ Neu hinzufügen",
+      "ADD_AGENT": "+ Agent hinzufügen",
+      "ADD_SUB_AGENT": "Unteragent hinzufügen",
+      "SUB_AGENTS_COUNT": "Unteragenten",
+      "NO_AGENTS": "Keine Agenten",
+      "LACK_OF_TOOLS": "Dieser Agentenvorlage fehlen folgende Tools:",
+      "GENERATE_IMAGE": "Erstellen Sie ein Bild mit {{assistantName}}",
+      "GENERATE_IMAGE_REQUIREMENTS": "Bitte geben Sie einen Namen und eine Beschreibung ein, um ein Bild mit {{assistantName}} zu generieren",
+      "GENERATING_DESCRIPTION": "{{assistantName}} erstellt nun ein Bild für {{agentName}}. Dieser Vorgang kann einen Moment dauern..."
+    },
+    "TOOLS": {
+      "ADD": "Tool hinzufügen",
+      "EDIT": "{{toolName}} Tool bearbeiten",
+      "ADD_TOOL_MODAL": {
+        "NAME": "Name*",
+        "NAME_PLACEHOLDER": "Bitte schreiben",
+        "TYPE": "Typ",
+        "TYPE_PLACEHOLDER": "Typ auswählen",
+        "DESCRIPTION": "Beschreibung*",
+        "DESCRIPTION_PLACEHOLDER": "Bitte schreiben"
+      }
+    },
+    "INTERFACES": {
+      "ADD": "Interface hinzufügen",
+      "EDIT": "Interface bearbeiten ",
+      "DELETE_CONFIRM": "Möchten Sie dieses Interfaces unwiderruflich löschen?."
+    }
+  },
+  "CHAT_CONVERSATION_EDIT": {
+    "TITLE_SHORT": "Titel des Gesprächs ist zu kurz"
+  },
+  "SPECIFICATIONS": {
+    "TITLE": "Spezifikationen Review Projekt",
+    "ADD_NEW": "Neues Projekt hinzufügen",
+    "CREATE_SPECIFICATION": "Spezifikation erstellen",
+    "NAME": "Name",
+    "DESCRIPTION": "Beschreibung",
+    "STATUS": "Status",
+    "ACTIONS": "Aktionen",
+    "NO_RESULTS_FOUND": "Keine Ergebnisse gefunden",
+    "TRY_DIFFERENT_SEARCH": "Versuchen Sie einen anderen Suchbegriff",
+    "DOCUMENT_NAME": "Dokumentname",
+    "STATUS_VALUES": {
+      "DRAFT": "Entwurf",
+      "IN_REVIEW": "In Überprüfung",
+      "APPROVED": "Genehmigt",
+      "REJECTED": "Abgelehnt"
+    },
+    "EVALUATION_VALUES": {
+      "FULFILLED": "Erfüllt",
+      "PARTIALLY_FULFILLED": "Teilweise erfüllt",
+      "NOT_FULFILLED": "Nicht erfüllt",
+      "HUMAN_EXPERT_NEEDED": "Experte erforderlich",
+      "UNKNOWN": "Unbekannt"
+    },
+    "NO_SPECIFICATIONS": "Keine Spezifikationen gefunden",
+    "PROJECT_DATA": "Projekt-Daten",
+    "PROJECT": "Projekt",
+    "VERSION": "Version",
+    "CUSTOMER": "Kunde",
+    "DOCUMENTS": "Dokumente",
+    "DOCUMENT": "Dokument",
+    "SELECT_DOCUMENT": "Dokument auswählen",
+    "REQUIREMENTS": "Anforderungen",
+    "EXPORT_EXCEL": "Excel exportieren",
+    "ADD_REQUIREMENT": "Anforderung hinzufügen",
+    "REQUIREMENT": "Anforderung",
+    "EVALUATION": "Bewertung",
+    "INTERNAL_COMMENT": "Interner Kommentar",
+    "AI_COMMENT": "AI-Kommentar",
+    "NO_REQUIREMENTS": "Keine Anforderungen gefunden",
+    "NO_CATEGORIES": "Keine Kategorien gefunden",
+    "CREATED_AT": "Erstellt am",
+    "UPDATED_AT": "Aktualisiert am",
+    "CATEGORIES": "Kategorien",
+    "CATEGORY": "Kategorie",
+    "PAGE_NUMBER": "Seitenzahl",
+    "ADD_CATEGORY": "Kategorie hinzufügen",
+    "CHECK_SPECIFICATIONS_SHEET_FOR_REQUIREMENTS": "Prüfen Sie das Lastenheft auf Anforderungen",
+    "CHECK_REQUIREMENTS_WITH_AGENT": "Anforderungen mit Agent prüfen",
+    "CATEGORIES_LOADING_MESSAGE": "{{plattformName}} wird versuchen, die Kategorien automatisch aus dem bereitgestellten Dokument abzuleiten.",
+    "REQUIREMENTS_LOADING_MESSAGE": "{{plattformName}} wird versuchen, die Anforderungen automatisch aus dem bereitgestellten Dokument abzuleiten.",
+    "PREVIEW": "Vorschau",
+    "GENERATE_CATEGORIES": "Um Kategorien zu erstellen, laden Sie bitte das Dokument hoch.",
+    "GENERATE_REQUIREMENTS": "Um Anforderungen zu erstellen, klicken Sie bitte auf 'Datenblatt prüfen'.",
+    "PREPARING_CATEGORIES": "Vorbereiten von Kategorien",
+    "PREPARING_REQUIREMENTS": "Anforderungen vorbereiten",
+    "MESSAGES": {
+      "FILE_TYPE_NOT_SUPPORTED": "Dateityp nicht unterstützt",
+      "AT_LEAST_ONE_REQUIREMENT": "Bitte wählen Sie mindestens eine Anforderung",
+      "ALL_REQUIREMENTS_CHECKED": "Alle Anforderungen wurden überprüft",
+      "CHECKING_REQUIREMENTS": "Anforderungen mit Agent erfolgreich gestartet"
+    },
+    "ALL_REQUIREMENTS_CHECKED": "Alle Anforderungen geprüft"
+  },
+  "LLM": {
+    "PLEASE_CHOOSE": "Bitte wählen Sie ein Modell aus",
+    "PLATFORM_DEFAULT": {
+      "LABEL": "{{ plattformName }} Standard LLM",
+      "DESCRIPTION": "Verwendet das in den Einstellungen konfigurierte Standardmodell. Für die meisten Nutzer empfohlen."
+    },
+    "DESCRIPTION": {
+      "GPT5_2": "Neuestes Modell der GPT-5-Reihe mit verbessertem Denkvermögen und multimodalem Verständnis. Ideal für anspruchsvolle Aufgaben mit hoher Genauigkeit.",
+      "GPT5_1": "Fortschrittliches OpenAI-Modell mit überlegener Denkfähigkeit und erweitertem Kontext. Ideal für komplexe Analysen und strategische Entscheidungen.",
+      "GPT5": "Starkes Flaggschiff-Modell mit fortgeschrittenen analytischen Fähigkeiten und multimodaler Verarbeitung. Hervorragend für anspruchsvolle Aufgaben.",
+      "GPT5_MINI": "Effizientes Modell mit GPT-5-Fähigkeiten optimiert für alltägliche Aufgaben. Schnelle Antworten mit zuverlässiger Qualität.",
+      "GPT4_1": "Verbessertes Denkmodell mit erhöhter Genauigkeit für komplexe Problemlösungen und detaillierte Analysen.",
+      "GPT4_1_MINI": "Ausgewogenes Modell mit optimierter Geschwindigkeit und Intelligenz. Ideal für Routineanfragen und schnelle Datenverarbeitung.",
+      "GPT4O": "Multimodales Modell für Text-, Bild- und Audioverarbeitung. Perfekt für Dokumentenanalyse und visuelles Verständnis.",
+      "GPT4O_MINI": "Schnelles multimodales Modell für alltägliche Bild- und Textaufgaben. Ideal für schnelle Dokumentenscans und Bildanalysen.",
+      "GEMINI_3_PRO": "Googles Flaggschiff-Modell mit fortgeschrittener Denkfähigkeit und massivem Kontextfenster (2M Tokens). Ideal für große Dokumentenanalysen und komplexes Denken.",
+      "GEMINI_2_5_PRO": "Hochleistungsmodell mit umfangreicher Kontextverarbeitung und starken analytischen Fähigkeiten. Hervorragend für umfassende Analysen.",
+      "GEMINI_FLASH_2_0": "Ultraschnelles Modell für Echtzeitantworten. Ideal für Hochdurchsatz-Anwendungen und schnelle Anfragen.",
+      "GEMINI_FLASH_2_5": "Geschwindigkeitsoptimiertes Modell mit verbesserter Genauigkeit. Perfekt für schnelle Verarbeitung bei gleichbleibender Qualität.",
+      "CLAUDE_HAIKU_3_5": "Schnellstes Claude-Modell mit sofortigen Antworten. Ideal für schnelle Anfragen und Hochvolumen-Verarbeitung.",
+      "CLAUDE_SONNET_3_5": "Ausgewogenes Modell mit starker Analyse und nuanciertem Verständnis. Hervorragende Allzweck-Wahl für vielfältige Aufgaben.",
+      "CLAUDE_SONNET_4": "Verbessertes Leistungsmodell mit überlegener Denkfähigkeit. Ideal für technische Analysen und komplexe Problemlösungen.",
+      "CLAUDE_SONNET_4_5": "Neuestes Claude-Flaggschiff mit modernster Denk- und Analyseleistung. Leistungsfähigstes Claude-Modell.",
+      "LLAMA_3_3": "Open-Source-Modell mit starken allgemeinen Fähigkeiten. Zuverlässige Wahl für ausgewogene Leistung bei verschiedenen Aufgaben.",
+      "LLAMA_4_MAVERICK": "Fortgeschrittenes Open-Source-Modell für anspruchsvolle analytische Aufgaben. Starke Denk- und technische Fähigkeiten.",
+      "LLAMA_4_SCOUT": "Effizientes Open-Source-Modell optimiert für Geschwindigkeit. Gut für einfache Aufgaben mit schnellem Durchlauf.",
+      "DEEPSEEK_V3": "Fortgeschrittenes Open-Source-Modell mit starken Denkfähigkeiten. Konkurrenzfähige Alternative mit solider technischer Leistung."
+    }
+  },
+  "KNOWLEDGE_SOURCES": {
+    "DOCUMENTS": {
+      "MESSAGES": {
+        "SAVE_SUCCESS": "Dokument erfolgreich gespeichert",
+        "SAVE_FAILED": "Fehler beim Speichern des Dokuments"
+      },
+      "CONFIRM_MODALS": {
+        "CONFIRM_DELETE_HEADER": "Löschen bestätigen",
+        "CONFIRM_DELETE_DOCUMENT_MESSAGE": "Sind Sie sicher, dass Sie das Dokument '{{documentName}}' löschen möchten?",
+        "CONFIRM_DELETE_MULTIPLE_MESSAGE": "Möchten Sie die ausgewählten {{count}} Elemente wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden."
+      }
+    },
+    "KNOWLEDGE_COLLECTIONS": {
+      "COMMON": {
+        "LABEL": "Wissenssammlungen",
+        "NAME": "Name",
+        "PROPERTIES": "Eigenschaften",
+        "DESCRIPTION": "Beschreibung"
+      },
+      "COLLECTIONS_VIEW": {
+        "NO_COLLECTIONS_FOUND_HEADER": "Keine Sammlungen gefunden",
+        "NO_COLLECTIONS_FOUND_SUBTEXT": "Klicken Sie auf 'Sammlung hinzufügen', um Ihre erste Wissenssammlung zu erstellen.",
+        "NO_RESULTS_FOUND_SUBTEXT": "Wir konnten keine Sammlungen finden, die mit '{{searchTerm}}' übereinstimmen",
+        "ADD_COLLECTION": "Sammlung hinzufügen"
+      },
+      "COLLECTION_DETAIL_VIEW": {
+        "TITLE": "Wissenssammlung Detailansicht",
+        "DELETE_COLLECTION_TOOLTIP": "Sammlung löschen",
+        "NO_ITEMS": "Keine Einträge in dieser Sammlung gefunden.",
+        "ADD_ROW_BTN": "Eintrag hinzufügen",
+        "IMPORT_KNOWLEDGE_BTN": "Wissen importieren"
+      },
+      "IMPORT_KNOWLEDGE_MODAL": {
+        "DIALOG_TITLE": "Wissen importieren",
+        "UPLOAD_FILE_TITLE": "Datei hochladen",
+        "UPLOAD_FILE_DESCRIPTION": "Wählen Sie eine Datei aus, die in diese Wissenssammlung importiert werden soll. Unterstützte Formate sind PDF, Excel und CSV-Dateien.",
+        "DRAG_DROP_INSTRUCTION": "Ziehen Sie Ihre Datei hierher oder klicken Sie zum Durchsuchen",
+        "SELECT_FILE": "Datei auswählen",
+        "SUPPORTED_FORMATS": "Unterstützte Formate: PDF, Excel (.xlsx, .xls), CSV",
+        "SELECT_PDF_FILE": "PDF-Datei auswählen",
+        "SELECT_PDF": "PDF auswählen",
+        "PDF_FILE_REQUIRED": "PDF-Datei ist erforderlich",
+        "EXTRACT_KNOWLEDGE": "Wissen extrahieren",
+        "EXTRACTING_FILE": "Datei wird extrahiert…",
+        "REVIEW_EXTRACTED_ITEMS": "Extrahierte Einträge prüfen",
+        "PROPERTY_DESCRIPTIONS": "Eigenschaftsbeschreibungen",
+        "DESCRIPTION_HELP": "Geben Sie Beschreibungen für jede Eigenschaft an, um der KI zu helfen, Informationen aus Ihrem PDF-Dokument zu extrahieren und zu kategorisieren.",
+        "DESCRIPTION_PLACEHOLDER": "Beschreiben Sie, was diese Eigenschaft enthalten soll...",
+        "DESCRIPTION_REQUIRED": "Beschreibung ist erforderlich",
+        "MAPPING_CONFIGURATION": "Spaltenzuordnung",
+        "MAPPING_HELP": "Ordnen Sie jede Eigenschaft einer Spalte aus Ihrer Datei zu, um die Daten korrekt zu importieren.",
+        "SELECT_COLUMN": "Spalte auswählen...",
+        "MAPPING_REQUIRED": "Spaltenzuordnung ist erforderlich",
+        "CLEAR_FILE": "Datei löschen",
+        "UPLOADING": "Hochladen...",
+        "COMING_SOON_TITLE": "Demnächst verfügbar",
+        "COMING_SOON_DESCRIPTION": "Die {{fileType}}-Import-Funktionalität befindet sich derzeit in der Entwicklung. Wir arbeiten hart daran, Ihnen diese Funktion bald zur Verfügung zu stellen!",
+        "FEATURES_COMING_TITLE": "Kommende Funktionen:",
+        "FEATURE_COLUMN_MAPPING": "Automatische Spaltenzuordnung",
+        "FEATURE_DATA_VALIDATION": "Datenvalidierung und Vorschau",
+        "FEATURE_BATCH_IMPORT": "Batch-Import-Verarbeitung",
+        "FEATURE_PREVIEW": "Import-Vorschau und Bestätigung",
+        "COMING_SOON_FOOTER": "Vielen Dank für Ihre Geduld während wir diese Funktion entwickeln."
+      },
+      "CREATE_COLLECTION_MODAL": {
+        "TITLE": "Neue Wissenssammlung erstellen",
+        "NAME_PLACEHOLDER": "Name der Sammlung eingeben",
+        "DESCRIPTION_PLACEHOLDER": "Beschreibung der Sammlung eingeben",
+        "ADD_COLUMN_BUTTON": "Eigenschaft hinzufügen",
+        "PROPERTIES_TOOLTIP": "Hier definieren Sie die Datenstruktur für Ihre Wissenssammlung. Diese Struktur ist dauerhaft und kann nach der Erstellung der Sammlung nicht mehr geändert werden. Definieren Sie Ihre Eigenschafte sorgfältig.",
+        "VECTORIZE": "Vektorisieren",
+        "VECTORIZE_TOOLTIP": "Aktivieren Sie diese Option, um den Inhalt der Eigenschaft für semantische Suchen zu verwenden. Dies ermöglicht es Ihnen, verwandte Informationen basierend auf konzeptioneller Bedeutung und Kontext zu finden.",
+        "IGNORE": "Ignorieren",
+        "DELETE_COLUMN_TOOLTIP": "Eigenschaft löschen",
+        "NO_PROPERTIES_YET": "Noch keine Eigenschaften hinzugefügt. Klicken Sie auf 'Eigenschaft hinzufügen', um zu beginnen.",
+        "PROPERTY_NAME_PLACEHOLDER": "Eigenschaftsname",
+        "PROPERTY_DESCRIPTION_PLACEHOLDER": "Eigenschaftsbeschreibung (optional)",
+        "ERROR_AT_LEAST_ONE_VECTORIZED": "Mindestens eine Eigenschaft muss zur Vektorisierung ausgewählt werden.",
+        "PROPERTIES_DESCRIPTION": "Eigenschaften sind die Felder, die die Daten in Ihrer Sammlung strukturieren. Aktivieren Sie die Vektorisierung für Eigenschaften, die beschreibenden Text enthalten, bei dem die zugrunde liegende Bedeutung für die Suche wichtig ist. IDs und ähnliche Felder ohne semantische Bedeutung sollten nicht vektorisiert werden."
+      },
+      "MANAGE_COLLECTION_MODAL": {
+        "TITLE": "Wissenssammlung verwalten",
+        "VECTORIZED": "Vektorisiert",
+        "NOT_VECTORIZED": "Nicht vektorisiert"
+      },
+      "CONFIRM_MODALS": {
+        "CONFIRM_DELETE_HEADER": "Löschen bestätigen",
+        "CONFIRM_DELETE_ITEM_MESSAGE": "Sind Sie sicher, dass Sie '{{itemName}}' von der Wissenssammlung löschen möchten?",
+        "CONFIRM_DELETE_COLLECTION_MESSAGE": "Sind Sie sicher, dass Sie die Wissenssammlung '{{collectionName}}' unwiderruflich löschen möchten?"
+      },
+      "MESSAGES": {
+        "ERROR_CREATING_COLLECTION": "Fehler beim Erstellen der Wissenssammlung.",
+        "ERROR_FETCHING_COLLECTIONS": "Fehler beim Abrufen der Wissenssammlungen.",
+        "ERROR_UPDATING_COLLECTION": "Fehler beim Aktualisieren der Wissenssammlung.",
+        "ERROR_DELETING_COLLECTION": "Fehler beim Löschen der Wissenssammlung.",
+        "ERROR_CREATING_ITEM": "Fehler beim Erstellen des Eintrags. Bitte versuchen Sie es erneut.",
+        "ERROR_UPDATING_ITEM": "Fehler beim Aktualisieren des Eintrags. Bitte versuchen Sie es erneut.",
+        "ERROR_DELETING_ITEM": "Fehler beim Löschen des Eintrags. Bitte versuchen Sie es erneut.",
+        "ERROR_NO_COLLECTION": "Details der Sammlung konnten nicht geladen werden. Sie existiert möglicherweise nicht oder es gab einen Ladefehler.",
+        "COLLECTION_CREATED": "Wissenssammlung erfolgreich erstellt.",
+        "COLLECTION_UPDATED": "Wissenssammlung erfolgreich aktualisiert.",
+        "COLLECTION_DELETED": "Wissenssammlung erfolgreich gelöscht.",
+        "ITEM_CREATED": "Eintrag erfolgreich erstellt.",
+        "ITEM_UPDATED": "Eintrag erfolgreich aktualisiert.",
+        "ITEM_DELETED": "Eintrag erfolgreich gelöscht.",
+        "NO_DATA_EXTRACTED_TITLE": "Keine Daten extrahiert",
+        "NO_DATA_EXTRACTED_TEXT": "Es konnten keine passenden Daten aus der PDF extrahiert werden. Bitte versuchen Sie, eine andere Datei auszuwählen.",
+        "IMPORT_FAILED_TITLE": "Import fehlgeschlagen",
+        "IMPORT_FAILED_TEXT": "Fehler beim Importieren der Daten aus der PDF. Bitte versuchen Sie es erneut."
+      }
+    }
+  },
+  "AGENTS": {
+    "COMMON": {
+      "COPY_AGENT_ID": "Agenten-ID kopieren",
+      "NAME": "Name",
+      "TYPE": "Typ",
+      "DESCRIPTION": "Beschreibung",
+      "OPTIONAL": "optional",
+      "SORT_BY": "Sortieren nach",
+      "NEW_TO_OLD": "Neu nach alt",
+      "OLD_TO_NEW": "Alt nach neu",
+      "A_TO_Z": "A - Z",
+      "Z_TO_A": "Z - A",
+      "SELECT_ALL": "Alle auswählen",
+      "SELECTED": "ausgewählt",
+      "USE_DEFAULT_AGENT": "{{plattformName}} Standard-Agent verwenden",
+      "SELECT_AGENT": "Agent auswählen",
+      "DEFAULT": "Standard Agent",
+      "DEPARTMENT": "Abteilung",
+      "ENTER_DEPARTMENT_DESCRIPTION": "Abteilungsbeschreibung eingeben",
+      "EDIT_DEPARTMENT": "Abteilung bearbeiten",
+      "CREATE_NEW_DEPARTMENT": "Neue Abteilung erstellen"
+    },
+    "LIST": {
+      "TITLE": "Agenten Übersicht",
+      "NO_AGENTS": "Keine Agenten",
+      "SUB_AGENTS_COUNT": "Unteragenten",
+      "ADD_SUB_AGENT": "Unteragent hinzufügen",
+      "ADD_AGENT": "Agent hinzufügen",
+      "ADD_DEPARTMENT": "Abteilung hinzufügen",
+      "CREATE_FROM_TEMPLATE": "Aus Vorlage erstellen",
+      "ASSIGN_DEFAULT": "Als Standard-Agent zuweisen",
+      "MOVE_NOT_ALLOWED": "Sie können dieses Element nicht an den ausgewählten Ort verschieben.",
+      "MAX_DEPTH_EXCEEDED": "Die maximale Hierarchietiefe wurde überschritten.",
+      "DRAG_MOVE_TO": "Verschieben nach: {{name}}",
+      "DROP_TO_ROOT": "In die oberste Ebene verschieben",
+      "DEPARTMENT_DESCRIPTION": "Abteilungen organisieren Agents in übersichtliche Gruppen und erleichtern so Verwaltung, Navigation und Strukturierung.",
+      "COLUMNS": {
+        "NAME": "Name",
+        "ACTIONS": "Aktionen",
+        "ROI": "ROI",
+        "HEH": "HEH"
+      }
+    },
+    "MONITORING": {
+      "WORKLOG": "Arbeitsprotokoll",
+      "DATE_RANGE": "Zeitbereich",
+      "LAST_24_HOURS": "Letzte 24 stunden",
+      "LAST_HOUR": "Letzte stunde",
+      "LAST_WEEK": "Letzte woche",
+      "COMPLETED": "Abgeschlossen {{actionName}} aktion",
+      "STARTED": "Startet {{actionName}} aktion",
+      "HEH_TOOLTIP": "Menschliche Äquivalenzstunden",
+      "ROI_TOOLTIP": "Rückfluss",
+      "ACTIONS_TAKEN": "Aktionen ausgeführt",
+      "LOAD_MORE": "Mehr laden",
+      "LOADING": "Laden...",
+      "FILTER_BY_AGENT": "Nach Agent filtern",
+      "SELECT_AGENT": "Agent auswählen",
+      "ALL_AGENTS": "Alle Agenten",
+      "DELEGATED_TO": "Delegiert an",
+      "ACTIVE": "Aktiv",
+      "CURRENTLY_ACTIVE": "Arbeitet gerade"
+    },
+    "DETAILS": {
+      "EDIT_INHERITANCE": "Vererbung bearbeiten",
+      "INHERITED_FROM_PARENT": "Von übergeordnetem Agenten geerbt",
+      "GRAPH": {
+        "CURRENT_AGENT": "Aktueller Agent",
+        "INHERITED_TITLE": "Vererbt",
+        "PARENT_AGENT": "Übergeordneter Agent"
+      },
+      "BASIC_DETAILS": {
+        "TITLE": "Agent Details",
+        "TOOLTIP": "Grundlegende Agenteninformationen konfigurieren, einschließlich Name, Bild, LLM und Beschreibung.",
+        "IMAGE": "Bild",
+        "GENERATE_IMAGE": "Erstelle ein Bild mit {{plattformName}}",
+        "GENERATE_IMAGE_REQUIREMENTS": "Bitte geben Sie einen Namen und eine Beschreibung ein, um ein Bild für {{plattformName}} zu generieren",
+        "AGENT_DESCRIPTION_LENGTH_ERROR": "Die Beschreibung muss unter 1500 Zeichen lang sein.",
+        "AGENT_NAME_LENGTH_ERROR": "Der Name muss unter 200 Zeichen lang sein.",
+        "NAME_PLACEHOLDER": "Agentenname eingeben",
+        "DESCRIPTION_PLACEHOLDER": "Agentenbeschreibung eingeben",
+        "LLM": "LLM Modell"
+      },
+      "PERFORMANCE": {
+        "TITLE": "Agent-Leistung",
+        "TOOLTIP": "Stellen Sie den Stundenlohn und die Bewertungskriterien für die Messung der Arbeitsleistung des Agenten ein.",
+        "HOURLY_WAGE": "Stundenlohn",
+        "EVALUATION_DESCRIPTION": "Bewertungsbeschreibung",
+        "EVALUATION_PLACEHOLDER": "Beschreiben Sie, wie die Arbeit des Agenten stundenweise bewertet werden soll (z.B. erledigte Aufgaben, Antwortqualität, Kundenzufriedenheit)",
+        "ERRORS": {
+          "MIN_WAGE": "Der Stundenlohn muss mindestens 0 betragen"
+        }
+      },
+      "KNOWLEDGE_SOURCE": {
+        "TITLE": "Wissensquellen",
+        "TOOLTIP": "Verwalten Sie die Wissensbasis, auf die Ihr Agent zugreifen kann. Fügen Sie Dokumente und Wissenssammlungen hinzu, um das Wissen Ihres Agenten zu erweitern.",
+        "DOCUMENTS": "Dokumente",
+        "TAGS": "Tags",
+        "COLLECTIONS": "Sammlungen",
+        "NO_COLLECTIONS_SELECTED": "Keine Sammlungen",
+        "KNOWLEDGE_COLLECTIONS": "Wissenssammlungen",
+        "INSIGHTS": "Erkenntnisse",
+        "ADD_INSIGHT": "Erkenntnis hinzufügen",
+        "NO_COLLECTIONS_FOUND_HEADER": "Keine Sammlungen gefunden",
+        "COPY_KNOWLEDGE_COLLECTION_ID": "Wissenssammlungs-ID kopieren",
+        "MANAGE_KNOWLEDGE_COLLECTIONS": "Wissenssammlungen verwalten",
+        "NO_INSIGHTS_FOUND_HEADER": "Keine Erkenntnisse gefunden",
+        "NO_INSIGHTS_FOUND_SUBTEXT": "Klicken Sie auf 'Erkenntnis hinzufügen', um Ihre erste Erkenntnis zu erstellen.",
+        "FOLDERS": "Ordner",
+        "FILES": "dateien",
+        "FOLDERS_LOWER_CASE": "ordner",
+        "TAGS_LOWER_CASE": "tags",
+        "USE_ALL_DOCS": "Alle Dokumente verwenden",
+        "NO_DOCS": "Keine Dokumente",
+        "INHERITANCE_TITLE": "Vererbung von Dokumentenfiltern",
+        "INHERITANCE_PAYLOAD": "Diese Dokumentenfilter werden vom übergeordneten Agenten geerbt. Sie können Änderungen in den Details des entsprechenden übergeordneten Agenten vornehmen.",
+        "LOAD_DOCUMENTS": "Dokumente laden",
+        "ROOT_DIRECTORY": "Hauptverzeichnis",
+        "NO_FOLDERS_FOUND": "Keine Ordner gefunden",
+        "NO_TAGS_FOUND": "Keine Tags gefunden",
+        "VALIDATION": {
+          "AT_LEAST_ONE_FOLDER_OR_TAG_REQUIRED": "Bitte wählen Sie mindestens einen Ordner oder Tag aus"
+        }
+      },
+      "INSTRUCTIONS": {
+        "TITLE": "Anweisungen",
+        "TOOLTIP": "Definieren Sie, wie sich Ihr Agent verhalten soll, mit Tools und Assistenten interagieren, Antworten formatieren und spezifische Szenarien handhaben soll.",
+        "PLACEHOLDER": "Klicken Sie, um Anweisungen hinzuzufügen",
+        "REQUIRED_WHEN_PROMPT_ENABLED": "Anweisungen sind erforderlich, wenn \"Als System-Prompt verwenden\" aktiviert ist.",
+        "TEMPLATE_VARIABLES_TIP": "Tipp: Geben Sie {{ im Editor ein, um Template-Variablen einzufügen.",
+        "ADVANCED_SETTINGS": "Erweiterte Einstellungen",
+        "ADVANCED_SETTINGS_WARNING": "Warnung: Das Ändern dieser Einstellungen kann das Verhalten des Agenten erheblich beeinflussen. Ändern Sie diese nur, wenn Sie die Auswirkungen verstehen.",
+        "VARIABLES": {
+          "AGENT_NAME_TOOLTIP": "Der Name des Agenten zur Identitätsbildung in Gesprächen",
+          "DATE_TOOLTIP": "Aktuelles Datum und Uhrzeit für zeitliches Bewusstsein",
+          "AVAILABLE_TARGETS_DESCRIPTION_TOOLTIP": "Beschreibungen verfügbarer Sub-Agenten, Assistenten und Tools zur Delegation"
+        }
+      },
+      "USE_INSTRUCTIONS_AS_PROMPT": "Anweisungen als System-Prompt verwenden",
+      "USE_INSTRUCTIONS_AS_PROMPT_TOOLTIP": "Wenn aktiviert, werden die Anweisungen direkt als System-Prompt verwendet, anstatt in die Standardvorlage integriert zu werden. Dies gibt Ihnen die volle Kontrolle über das Verhalten des Agenten.",
+      "ASSISTANTS": {
+        "TITLE": "Assistenten und Werkzeuge",
+        "TOOLTIP": "Konfigurieren Sie die Assistenten und Tools, die Ihr Agent verwenden kann, um Aufgaben zu erledigen und erweiterte Funktionalität zu bieten.",
+        "LACK_OF_ASSISTANTS": "Dieser Agenten-Template fehlen die folgenden Assistenten:",
+        "ENABLE_ASSISTANT": "Assistent aktivieren",
+        "DISABLE_ASSISTANT": "Assistent deaktivieren",
+        "CREATE_ASSISTANT": "Assistent erstellen",
+        "ASSISTANTS": "Assistenten",
+        "TOOLS": "Werkzeuge",
+        "ENABLE_TOOL": "Werkzeug aktivieren",
+        "DISABLE_TOOL": "Werkzeug deaktivieren",
+        "PLACEHOLDER": "Klicken Sie, um Assistenten und Werkzeuge hinzuzufügen"
+      },
+      "GRAPH_OVERVIEW": {
+        "TITLE": "Graph Übersicht",
+        "TOOLTIP": "Visuelle Darstellung der Struktur Ihres Agenten, die Verbindungen zwischen dem Agenten, seinen Wissensquellen, Tools und Assistenten zeigt."
+      },
+      "NEW_AGENT": "Neuer Agent",
+      "INSTRUCTIONS_PARENT": "Geerbt von:",
+      "GENERATING_DESCRIPTION": "{{plattformName}} generiert jetzt ein Bild für {{agentName}}. Dies kann einen Moment dauern..."
+    },
+    "MESSAGES": {
+      "AGENT_ASSISTANTS_ERROR": "Bitte wählen Sie mindestens 1 Assistenten aus",
+      "INHERITANCE_ALERT": "Dieses Element wird von einem der übergeordneten Agenten geerbt. Sie können Änderungen in den Details des entsprechenden übergeordneten Agenten vornehmen.",
+      "DOCUMENT_FILTERS_UPDATED_TITLE": "Dokumentfilter aktualisiert",
+      "DOCUMENT_FILTERS_UPDATED_DETAIL": "Dieser Agent hat veraltete Dokumentfilter, die jetzt gelöscht wurden.",
+      "ASSIGN_DEFAULT_SUCCESS": "Agent als Standard-Agent zuweisen erfolgreich"
+    },
+    "CONFIRM": {
+      "CREATE_EMPTY_TITLE": "Agent erstellen",
+      "UPDATE_EMPTY_TITLE": "Agent aktualisieren",
+      "CREATE_EMPTY_BODY": "Sind Sie sicher, dass Sie einen Agenten ohne Assistenten erstellen möchten?",
+      "UPDATE_EMPTY_BODY": "Sind Sie sicher, dass Sie einen Agenten ohne Assistenten aktualisieren möchten?",
+      "REDIRECT_UNSAVED_HEADER": "Ungespeicherte Änderungen",
+      "REDIRECT_UNSAVED_BODY": "Sie haben ungespeicherte Änderungen. Sind Sie sicher, dass Sie die Seite verlassen möchten? Alle Änderungen gehen verloren."
+    },
+    "VALIDATION": {
+      "DOCUMENT_SELECTION_REQUIRED_DETAIL": "Bitte wählen Sie mindestens einen Ordner oder Tag aus oder aktivieren Sie 'Alle Dokumente verwenden', um fortzufahren.",
+      "INCOMPLETE_FORM": "Unvollständige Details",
+      "PLEASE_CHECK_REQUIRED_FIELDS": "Bitte überprüfen Sie alle Pflichtfelder und versuchen Sie es erneut.",
+      "NAME_REQUIRED": "Agent-Name ist erforderlich.",
+      "DESCRIPTION_REQUIRED": "Agent-Beschreibung ist erforderlich.",
+      "LLM_REQUIRED": "Bitte wählen Sie ein LLM-Modell aus."
+    }
+  },
+  "DOCUMENTS_CONNECTION_FORM": {
+    "SEARCH_MODE": "Art der Dokumentensuche"
+  },
+  "FOOTER_LINKS": {
+    "HOMEPAGE": "vollmer-group.com",
+    "EULA": "EULA",
+    "IMPRESS": "Impressum",
+    "DATA": "Datenschutz",
+    "T&C": "AGB"
+  },
+  "BOTTOM_FOOTER": {
+    "PART_A": "© 2025 VOLLMER WERKE Maschinenfabrik GmbH - Telefon: +49 7351 5710 -",
+    "PART_B": "info@vollmer-group.com"
+  },
+  "TITLE": {
+    "GPT": {
+      "CHAT": "GPT",
+      "ROUTINE": "Routinen",
+      "SETTINGS": "GPT-Einstellungen",
+      "SPECIFICATION-REVIEW": "Spezifikationsprüfung"
+    },
+    "ASSET-MANAGER": {
+      "ALLOCATED-ASSETS": "Zugeordnete Assets",
+      "ASSET-POOL": "Assetpool",
+      "ASSET-TYPES": "Assettypen",
+      "ASSET-MAPS": "Status-Karten",
+      "GATEWAYS": "Gateways",
+      "ASSETS": "Neues Asset erstellen"
+    },
+    "DOCUMENT": {
+      "DOCUMENTS": "Dokumente",
+      "DOCUMENT-CATEGORY": "Dokumentenkategorie",
+      "VIEW": "Dokumentenanzeige"
+    },
+    "USER": {
+      "USERS": "Benutzer",
+      "ROLES": "Rollen & Rechte"
+    },
+    "TENANT": "Tenants",
+    "HUB": {
+      "SETTINGS": "Hub-Einstellungen"
+    },
+    "CONDITION-MONITORING": {
+      "MULTIBOARD": "Condition-Monitoring"
+    },
+    "AGENTS": "Agenten",
+    "ASSISTANTS": "Assistenten",
+    "KNOWLEDGE-SOURCES": {
+      "COLLECTIONS": "Wissensquellen"
+    }
+  },
+  "ASSET_MONITORING": {
+    "ASSET_OVERVIEW": {
+      "OVERVIEW": "Übersicht",
+      "ASSET_NAME": "Anlagenname",
+      "ASSET_TYPE": "Anlagentyp",
+      "SUB_ASSETS": "Teilanlagen"
+    },
+    "ASSET_DETAILS": {
+      "LIVE_STATUS": "Live-Status",
+      "ASSET_NAME": "Anlagenname",
+      "ASSET_TYPE": "Anlagentyp",
+      "ISA95_TYPE": "ISA95-Typ",
+      "PARENT_ASSET": "Übergeordnete Anlage",
+      "DESCRIPTION": "Beschreibung",
+      "VIEW_DETAILS": "Details anzeigen",
+      "EDIT": "Bearbeiten",
+      "TYPE_REQUIRED": "Anlagentyp ist verpflichtend"
+    },
+    "ASSET_DOCUMENTS": {
+      "DOCUMENTS": "Dokumente",
+      "DESCRIPTION": "Beschreibung",
+      "TYPE": "Typ",
+      "DATE_UPLOADED": "Hochladedatum",
+      "NO_DOCUMENTS": "Keine Dokumente vorhanden"
+    },
+    "ASSET_TIMELINE": {
+      "TIMELINE": "Zeitleiste",
+      "ERROR_TYPE": "Fehlertyp",
+      "DESCRIPTION": "Beschreibung",
+      "DATE": "Datum",
+      "NO_RECORDS": "Keine Einträge verfügbar"
+    }
+  },
+  "KPI": {
+    "OEE": "OEE",
+    "UTILIZATION": "Auslastung",
+    "AVAILABILITY": "Verfügbarkeit",
+    "YIELD": "Ausbeute"
+  },
+  "THROUGHPUTS": {
+    "ERRORS": "Fehler",
+    "MTBF": "MTBF",
+    "MTTR": "MTTR",
+    "PRODUCED_TOTAL": "Produziert (gesamt)",
+    "CYCLE_RATE": "Taktrate"
+  },
+  "UNITS": {
+    "LAST_24_H": "letzte 24 Stunden",
+    "MINUTES": "Minuten",
+    "PER_MINUTE": "pro Minute",
+    "PIECES": "Stück",
+    "ERRORS_TOTAL": "Fehler (gesamt)"
+  },
+  "UNIT": {
+    "DAYS": "Tage"
+  },
+  "STATUS": {
+    "RUNNING": "Läuft",
+    "UNDEFINED": "Undefiniert",
+    "ENGINEERING": "Engineering",
+    "RUN": "Laufend",
+    "IDLE": "Inaktiv",
+    "ALARM": "Alarm",
+    "HIGH": "Hoch",
+    "LOW": "Niedrig",
+    "VERY_LOW": "Sehr niedrig",
+    "YIELD_TREND": "Ausbeute-Trend",
+    "PRODUCING": "In Produktion",
+    "STANDBY": "Bereitschaft",
+    "UNSCHEDULED_DOWN": "Ungesch. Ausfall",
+    "SCHEDULED_DOWN": "Gepl. Ausfall",
+    "MCBJ": "MCBJ",
+    "MCBF": "MCBF",
+    "GOOD": "Gut",
+    "WARNING": "Warnung",
+    "DEGRADING": "Verschlechternd",
+    "CRITICAL": "Kritisch",
+    "PERFORMANCE": "Leistung",
+    "WARNING_LIMIT": "Warnlimit",
+    "CRITICAL_LIMIT": "Kritiklimit"
+  },
+  "TOOLBAR": {
+    "BUTTONS": {
+      "EQUIPMENT": "Anlage",
+      "CONVERSION_KIT": "Umbausatz",
+      "ADMIN_VIEW": "Admin-Ansicht",
+      "CUSTOMER_VIEW": "Kundenansicht",
+      "KPI": "KPI",
+      "MORE": "Mehr",
+      "SELECT_ALL": "Alle auswählen",
+      "DESELECT_ALL": "Alle abwählen",
+      "CONFIRM": "Bestätigen",
+      "CURRENT": "Aktuell",
+      "HISTORY": "Verlauf",
+      "ALL_DATA": "Alle Daten",
+      "EXTEND": "Erweitern",
+      "RETRACT": "Zurückziehen",
+      "EDIT_LIMIT_RULES": "Grenzwerte bearbeiten"
+    }
+  },
+  "SCANNER": {
+    "QR_CODE_SCAN": "QR-Code scannen",
+    "CAMERA_BLOCKED": "Kamera nicht unterstützt. Der Zugriff wurde entweder vom Benutzer oder vom System blockiert.",
+    "CAMERA_NOT_FOUND": "Keine Kamera gefunden."
+  },
+  "IMPORTEXPORT": {
+    "STEP_TITLE": {
+      "NO1": "Datei auswählen",
+      "NO2": "Plausibilitätsprüfung",
+      "NO3": "Fertig"
+    },
+    "IMPORT_TITLE": "Kacheln importieren",
+    "EXPORT": {
+      "INFO": {
+        "STARTED": "Der Exportprozess wurde gestartet. Bitte bleiben Sie auf dieser Seite, bis der Download der Datei begonnen hat!",
+        "DOWNLOAD_STARTS": "Der Download wurde in einem neuen Fenster gestartet! Vergewissern Sie sich, dass der Browser die benötigten Rechte zum Öffnen eines neuen Fensters hat, falls der Download nicht startet."
+      },
+      "ERRORS": {
+        "EXPORT_FAILED": "Während des Exports der Kacheln und Daten ist ein Fehler aufgetreten.",
+        "INVALID_NO_IMPORT_ID": "Ungültiger Status: Fehlende oder ungültige Import-ID. Der Vorgang kann nicht durchgeführt werden."
+      }
+    },
+    "IMPORT": {
+      "TITLE": "Importiere Grafana Kachel '{{tileName}}'",
+      "MERGE_LEFTSIDE_TITLE": "Original",
+      "MERGE_RIGHTSIDE_TITLE": "Neu (importiert als)",
+      "BTNS": {
+        "PERFORM_IMPORT": "Importieren",
+        "APPLY_CHANGES": "{{n}} ausstehende Änderung(en) anwenden",
+        "UPLOAD_AND_CHECK": "Hochladen & Prüfen",
+        "SELECT_FILE": "Datei auswählen",
+        "GOTO_APP": "Weiter zur App",
+        "RETRY_IMPORT": "Kacheln erneut importieren",
+        "IMPORT_TILES": "Kacheln importieren",
+        "EXPORT_TILES": "Alle Kacheln exportieren",
+        "CANCEL_OPERATION": "Abbrechen & Zurück zur App"
+      },
+      "LEFT": {
+        "ASSET": "Asset (wo diese Kacheln ursprünglich erstellt wurden)",
+        "ASSET_TYPE": "Asset-Typ (Kacheln, die auf mehreren Assets angezeigt werden)"
+      },
+      "RIGHT": {
+        "ASSET_TYPE": "Asset-Typ",
+        "ASSET": "Asset"
+      },
+      "LABEL": {
+        "ASSET_TYPE_NAME": "Asset-Typ Name",
+        "ASSET_NAME": "Asset Name",
+        "ORIGINALLY_CREATED_AT": "Ursprünglich erstellt am",
+        "LAST_UPDATED_AT": "Letzte Änderung am",
+        "EQUIPMENT_TYPE": "Equipment-Typ",
+        "ASSET_TYPE_BUILT_IN": "Eingebauter Asset-Typ?",
+        "ASSET_PATH": "Asset Pfad",
+        "ASSET_ROOT": "Root",
+        "ERROR": "Fehler",
+        "ERROR_REASON": "Fehlergrund",
+        "ERROR_SERVER_MSG": "Servernachricht",
+        "ERROR_AFFECTED_TILE": "Betroffene Kachel",
+        "DELETE_TILES_ON_SERVER": "Alle existierende Kacheln löschen"
+      },
+      "INFO": {
+        "SHOWS_ON_MULTIPLE_ASSETS": "Diese Kachel ist für einen Asset-Typ definiert und wird bei mehreren Assets dieses Typs angezeigt. Stellen Sie sicher, dass Sie den richtigen Asset-Typ auswählen.",
+        "SHOWS_ON_ONE_ASSET": "Diese Kachel ist für ein einzelnes Asset definiert und wird daher nur dort als Kachel angezeigt.",
+        "TARGET_NO_ASSET_TYPE_REQUIRED": "Da die Kachel nur für das Asset definiert ist, muss kein Asset-Typ ausgewählt werden.",
+        "NOT_IMPORTED": "Diese Kachel wird nicht importiert. Wenn Sie sie importieren möchten, aktivieren Sie den Schieberegler in der oberen linken Ecke.",
+        "IMPORT_IN_PROGRESS": "Bitte warten Sie, wir arbeiten hart daran, die Fliesen zu importieren!",
+        "DELETE_TILES_ON_SERVER": "Wenn diese Option aktiviert ist, werden vor der Durchführung des Imports alle vorhandenen Kacheln entfernt. Danach werden die für den Import markierten Kacheln importiert"
+      },
+      "ERRORS": {
+        "GENERAL_FOUND_ERRORS": "Diese Kachel kann noch nicht importiert werden. Bei der Plausibilitätsprüfung für den Import dieser Kachel wurden die folgenden Fehler gefunden:",
+        "GENERAL_ERRORS_CONTAINED": "Bitte lösen Sie alle unten aufgeführten Probleme, um fortzufahren.",
+        "ERR_NO_ASSET_SELECTED": "Kein Asset ausgewählt: Bitte wählen Sie ein Ziel-Asset, auf dem die Kachel sichtbar sein soll",
+        "ERR_NO_ASSET_TYPE_SELECTED": "Kein Asset-Typ ausgewählt: Bitte wählen Sie einen Asset-Typ, auf dem die Kachel angezeigt werden soll",
+        "ERR_NO_ASSET_FOR_TYPE_SELECTABLE": "Für den ausgewählten Asset-Typ ist kein Asset vorhanden und kann ausgewählt werden, aber ein Asset ist erforderlich",
+        "ERR_ASSET_NOT_OF_THAT_TYPE": "Das ausgewählte Asset hat einen anderen Typ als der ausgewählte Asset-Typ. Diese Kombination ist ungültig und kann nicht importiert werden!",
+        "UPLOAD_BAD_FILE": "Die bereitgestellte Datei ist entweder beschädigt oder enthält keine gültigen Exportdaten. Server-Meldung: '{{Nachricht}}'. Bitte versuchen Sie es erneut mit einer korrekten Datei.",
+        "IMPORT_RESULT": {
+          "E_IMPORT_TILE_FAILED": "Der Import einer Kachel ist fehlgeschlagen, weil die Importdaten fehlerhaft sind und nicht zur Neuerstellung der Kachel verwendet werden konnten.",
+          "E_IMPORT_NOT_FOUND": "Es konnte kein Importvorgang gefunden werden. Bitte starten Sie den Import von vorne.",
+          "E_IMPORT_AUTO_CHECK_FAILED": "Die automatische abschließende Plausibilitätsprüfung ist fehlgeschlagen. Dies könnte ein interner Fehler sein, der nicht behoben werden kann.",
+          "E_IMPORT_ACTIONS_REQUIRED": "Die automatische abschließende Plausibilitätsprüfung hat weiteren Handlungsbedarf ergeben. Daher kann der Import nicht durchgeführt werden. Gehen Sie zurück und lösen Sie alle offenen Punkte!",
+          "E_IMPORT_CLEAN_FAILED": "Es konnten nicht alle Kacheln aus der Datenbank entfernt werden, aber es wurde angefordert. Daher kann der Import nicht durchgeführt werden. Einige Kacheln könnten bereits gelöscht sein."
+        },
+        "MISSING_FACADE_ID": "Die Import-Zielanwendung oder der Mandant konnte nicht ermittelt werden. Ein Import ist nicht möglich. Dies ist ein technisches Problem. Bitte wenden Sie sich an Ihren Administrator!"
+      },
+      "DESC": "Die ausgewählte Importdatei wurde verarbeitet und eine automatische Zuordnung der Kacheln zum richtigen Asset bzw. Asset-Typ wurde vorgenommen. Unten werden alle zu importierenden Kacheln ({{tileCount}} Kachel(n)) aufgelistet. Bitte überprüfen Sie, ob das Importziel korrekt ist. Über das Dropdown-Menü können Sie das Importziel für die Kacheln ändern und Kacheln, die nicht importiert werden sollen, abwählen.",
+      "DESC_UPLOAD": "Bitte wählen Sie eine korrekte und gültige exportierte Kachel-Dump-Datei aus, die importiert werden soll und fahren Sie fort.",
+      "SUCCESS_READY": "Alle Prüfungen wurden bestanden und die Kacheln sind bereit für den Import.",
+      "SUCCESS": "Herzlichen Glückwunsch! Der Import wurde erfolgreich durchgeführt. Insgesamt wurden {{tilesSuccess}} Kachel(n) von {{tilesTotal}} Kachel(n) importiert. Bitte beachten Sie, dass die Zahlen abweichen können, wenn nicht alle Kacheln für den Import markiert wurden, da übersprungene Kacheln nicht als Erfolg gezählt werden. Sie können diese Seite nun verlassen. Ihre hochgeladene Datei wurde vom Server entfernt.",
+      "FAILED": "Leider ist der Import fehlgeschlagen. Von den angegebenen {{tilesTotal}} Kacheln konnten nur {{tilesSuccess}} Kacheln importiert werden. Insgesamt konnten {{tilesError}} Kacheln nicht importiert werden. Bitte beachten Sie, dass die erfolgreich importierte(n) Kachel(n) ({{tilesSuccess}}) bereits im System angelegt sind. Nachfolgend erhalten Sie eine Übersicht über die Kacheln, die nicht importiert werden konnten. Wenn möglich, erhalten Sie auch einen Zurück-Button, um es erneut zu versuchen. Ansonsten müssen Sie wieder von vorne beginnen. Bitte vergessen Sie nicht, die bereits importierten Kacheln zu deaktivieren, da sie sonst ein zweites Mal importiert werden."
+    }
+  },
+  "MULTIBOARD": {
+    "TITLE": "Anwendungsübersicht",
+    "SEARCH": "Suche...",
+    "CREATE_NEW": "Neue Anwendung",
+    "NAME": "Name",
+    "DESCRIPTION": "Beschreibung",
+    "LAST_CHANGED": "Zuletzt Geändert",
+    "BOARDS": "Boards",
+    "ENABLED": "Ermöglicht",
+    "NO_RECORD_FOUND": "Keine Eintrag gefunden",
+    "YES": "Ja",
+    "NO": "Nein",
+    "BTNS": {
+      "EDIT": "Bearbeiten",
+      "DELETE": "Löschen"
+    },
+    "APPLICATION": "Applikation {{appName}}",
+    "NEW_APPLICATION": "Neue Applikation"
+  },
+  "APPLICATION": {
+    "APPLICATION": "Anwendung",
+    "NEW_APPLICATION": "Neue Anwendung",
+    "GENERAL": "Allgemein",
+    "DELETED": "App wurde gelöscht",
+    "NAME": "Name",
+    "DESCRIPTION": "Beschreibung",
+    "ALIAS": "Alias",
+    "IMAGE": "Bild",
+    "ACTIVE_LABEL": "Aktiv - App wird dem Benutzer angezeigt",
+    "BOARDS": "Boards",
+    "CREATE_NEW": "Erstelle neu",
+    "DISPLAY_ON": "Anzeige an",
+    "LAST_CHANGED": "Zuletzt Geändert"
+  },
+  "NEW_APPLICATION": {
+    "ERROR": {
+      "NAME": "Anwendungsname ist erforderlich",
+      "NAME_LEN": "Anwendungsname sollte zwischen 3-100 Zeichen lang sein",
+      "ALIAS_UNIQUE": "Anwendungsalias ist bereits vergeben"
+    }
+  },
+  "NEW_BOARD": {
+    "ERROR": {
+      "NAME": "Board-Name ist erforderlich",
+      "NAME_LEN": "Board-Name sollte zwischen 3-100 Zeichen lang sein",
+      "LINK": "Board-Link ist ungültig"
+    }
+  },
+  "NEW_TILE": {
+    "ERROR": {
+      "NAME": "Kachelname ist erforderlich",
+      "NAME_LEN": "Kachelname sollte zwischen 3-100 Zeichen lang sein"
+    }
+  },
+  "APPLICATION_BOARDS": {
+    "NONE": "Nirgendwo anzeigen",
+    "ASSET_ID": "Auf speziellem Asset anzeigen",
+    "ASSET_TYPE": "Auf Assets des Typs anzeigen",
+    "ISA95_TYPE": "Auf Assets mit ISA95-Typ anzeigen",
+    "TITLE": "Kachel/Tabs",
+    "ADD_NEW": "Neues Board hinzufügen",
+    "NAME": "Name",
+    "DESCRIPTION": "Beschreibung",
+    "ACTIVE_LABEL": "Aktiv - Board wird dem Benutzer angezeigt",
+    "LAST_CHANGED": "Letzte Änderung",
+    "EMPTY": "Keine Boards gefunden",
+    "BOARD": "Board",
+    "CREATE_NEW": "Neues Board erstellen",
+    "GENERAL": "Allgemein",
+    "TILES": "Kacheln",
+    "ENABLED": "Aktiviert",
+    "MOVE": "Verschieben",
+    "ADD_TILE": "Kachel hinzufügen",
+    "DELETED": "Board erfolgreich gelöscht",
+    "MOUNT_TITLE": "Dieses Board anzeigen auf",
+    "ADD_MOUNTPOINT": "Einhängepunkt hinzufügen",
+    "ADD_ASSET_LINK": "Asset-Link hinzufügen",
+    "ASSET_LINK_DESCRIPTION": "Asset-Link definieren",
+    "EMPTY_ASSET_LINK": "Keine Asset-Links",
+    "MOUNT_DESCRIPTION": "Einhängepunkt definieren",
+    "MOUNT_EMPTY": "Keine Einhängepunkt",
+    "ASSET_LINK_TITLE": "Dieses Board anzeigen auf",
+    "TYPE": "Typ",
+    "SAVED": "Die Änderungen für das Board wurden gespeichert.",
+    "CREATED": "Das neue Board wurde erfolgreich erstellt!"
+  },
+  "ISA95_TYPES": {
+    "NONE": "Keine",
+    "ENTERPRISE": "Unternehmen (Firma)",
+    "SITE": "Standort",
+    "AREA": "Bereich",
+    "WORK_CENTER": "Arbeitsplatz",
+    "PROCESS_CELL": "Prozesszelle",
+    "PRODUCTION_UNIT": "Produktionseinheit (Maschine)",
+    "PRODUCTION_LINE": "Produktionslinie (Linie)",
+    "STORAGE_ZONE": "Lagerzone",
+    "WORK_UNITS": "Arbeitseinheit",
+    "STORAGE_UNIT": "Lagereinheit",
+    "EQUIPMENT_MODULE": "Gerätemodul",
+    "CONTROL_MODULE": "Steuermodul",
+    "UNIT": "Einheit"
+  },
+  "ABORT": "Abbrechen",
+  "SAVE": "Speichern",
+  "SINGLE_SIGN_ON_ACCOUNT": "Single Sign-On Konto",
+  "SSO_DETAILS_MANAGED_MESSAGE": "Sie sind über einen <strong>SSO-Anbieter</strong> angemeldet. Ihre Daten werden extern verwaltet.",
+  "FIELD_SHOULD_BE_VALID": "Feld sollte gültig sein",
+  "FIELD_IS_TOO_SHORT": "Feld ist zu kurz",
+  "PASSWORDS_DO_NOT_MATCH": "Passwörter stimmen nicht überein",
+  "THE_FIELD_IS_REQUIRED": "Das Feld ist erforderlich",
+  "ACTIVITY": {
+    "CREATED": "Created",
+    "UPDATED": "Updated",
+    "TYPE_CHANGED": "Type changed",
+    "FILE_REPLACED": "File replaced",
+    "REF_ASSIGNED": "Reference assigned",
+    "REF_UNASSIGNED": "Reference unassigned",
+    "DELETED": "Deleted"
+  },
+  "DELETE_DOCUMENT_CONFIRM_TITLE": "Dokument löschen?",
+  "DELETE_DOCUMENT_CONFIRM_BODY": "Möchten Sie das Dokument wirklich löschen?",
+  "DELETE_DOCUMENT_CONFIRM_CONFIRM": "Löschen",
+  "DELETE_DOCUMENT_CONFIRM_ABORT": "Abbrechen",
+  "DOCUMENT": {
+    "CREATE": "Dokument erstellen",
+    "EDIT": "Dokument bearbeiten",
+    "LABEL": "Dokument",
+    "ALLOWED_TYPES": "Allowed types"
+  },
+  "LABEL": {
+    "DOCUMENT": "Dokument",
+    "SEARCH": "Suche"
+  },
+  "CANCEL": "Abbrechen",
+  "NEW_SUPPORT_REQUEST": "Neue Supportanfrage",
+  "SEND_SUPPORT_REQUEST": "Support-Anfrage senden",
+  "TOPIC_ITEMS": {
+    "GENERAL": "Allgemein",
+    "MACHINE_ERROR": "Maschinenfehler",
+    "SERVICE_INQUIRY": "Serviceanfrage",
+    "SPARE_PARTS": "Ersatzteile"
+  },
+  "PREFERRED_COMM_METHOD_ITEMS": {
+    "EMAIL": "E-Mail",
+    "PHONE": "Telefon"
+  },
+  "ASSET_DETAILS": {
+    "ASSET": "Asset",
+    "ASSET_TYPE": "Asset-Typ",
+    "LIVE_STATUS": "Live-Status",
+    "ISA95_TYPE": "ISA95-Typ",
+    "PARENT_ASSET": "Übergeordnete Anlage",
+    "FIRMWARE_VERSION": "Firmware-Version",
+    "DESCRIPTION": "Beschreibung",
+    "TYPE_REQUIRED": "Anlagentyp ist verpflichtend",
+    "LNG": "Längengrad",
+    "LAT": "Breitengrad",
+    "ALT": "Höhe (über N.N.)"
+  },
+  "SUPPORT_REQUEST": "Supportanfrage",
+  "DIRECTIVES": {
+    "UPLOAD_FILE": {
+      "413_TITLE": "Datei zu groß",
+      "413_BODY": "Ihre Datei ist zu groß. Das Limit beträgt {{limit}}MB",
+      "UNKNOWN_TITLE": "Fehler beim hochladen der Datei",
+      "UNKNOWN_BODY": "Es gab einen unbekannten Fehler beim hochladen der Datei"
+    }
+  },
+  "TIME_RANGE": {
+    "DEFAULT_RANGE": "Standardbereich",
+    "LIVE": "Live-Daten",
+    "LAST_24_HOURS": "Letzte 24 Stunden",
+    "LAST_WEEK": "Letzte Woche",
+    "LAST_MONTH": "Letzter Monat",
+    "LAST_YEAR": "Letztes Jahr",
+    "START_DATE": "Startdatum",
+    "END_DATE": "Enddatum",
+    "RANGE_HISTORY": "Bereichsverlauf",
+    "RESET": "Zurücksetzen",
+    "APPLY": "Anwenden",
+    "DEFAULT": "Standard: Letzte 24h",
+    "CHOOSE_TIMESTAMP": "Zeitstempel wählen"
+  }
+}
